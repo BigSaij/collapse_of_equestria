@@ -2,8 +2,9 @@ state={
 	id=18
 	name="STATE_18"
 	provinces={
-		593 1068 1531 2736 
+		1389 2200 2718 5427 6703 6709 6712 6724 6726 
 	}
-	manpower=110
 	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
 }
