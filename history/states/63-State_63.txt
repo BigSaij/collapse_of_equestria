@@ -1,10 +1,12 @@
+
 state={
 	id=63
 	name="STATE_63"
 	provinces={
-		922 3054 5249 6565 6812 6839 6850 6866 
+		922 1290 2668 3054 5249 6565 6812 6839 6850 6866 
 	}
+	manpower=1
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	local_supplies=0.000
 }

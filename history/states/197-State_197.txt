@@ -1,10 +1,12 @@
+
 state={
 	id=197
 	name="STATE_197"
 	provinces={
-		391 1005 2104 2143 3816 5974 6082 6326 6414 7331 7403 7427 
+		391 459 2022 2104 2143 5382 6082 7403 7427 7472 7500 
 	}
+	manpower=1
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	local_supplies=0.000
 }
