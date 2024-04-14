@@ -3,7 +3,7 @@ state={
 	id=630
 	name="STATE_630"
 	provinces={
-		960 3209 6340 9131 9159 9166 9175 9176 9191 9200 
+		960 3209 6234 6340 9103 9131 9159 9166 9175 9176 9191 9200 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
