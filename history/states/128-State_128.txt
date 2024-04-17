@@ -3,7 +3,7 @@ state={
 	id=128
 	name="STATE_128"
 	provinces={
-		888 2981 3669 4730 4989 5397 6207 7077 7096 
+		888 2981 3669 4730 4989 5397 6207 7077 7096 7112 7135 7163 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

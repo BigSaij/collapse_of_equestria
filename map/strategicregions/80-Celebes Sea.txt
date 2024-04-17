@@ -1,0 +1,23 @@
+
+strategic_region={
+	id=80
+	name="STRATEGICREGION_80"
+	provinces={
+		10886 11010 11023 11029 11107 11119 11130 11181 11203 11231 11352 11368 11390 11397 11403 11426 
+	}
+	weather={
+		period={
+			between={ 0.0 30.11 }
+			temperature={ 12.0 30.0 }
+			no_phenomenon=0.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.000
+			blizzard=0.000
+			arctic_water=0.000
+			mud=1.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
+	}
+}
