@@ -3,7 +3,7 @@ state={
 	id=946
 	name="STATE_946"
 	provinces={
-		827 1941 3656 4342 5524 6096 10503 10549 10567 10581 
+		827 1941 3656 4342 5524 6096 10503 10549 10567 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
