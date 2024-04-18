@@ -11,8 +11,8 @@ state={
 	local_supplies=0.000
 	
 	history = {
-		owner = BTM
-		add_core_of = BTM
+		owner = HSC
+		add_core_of = HSC
 		victory_points = { 2438 5 }
 	}
 }

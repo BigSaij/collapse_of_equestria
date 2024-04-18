@@ -1,0 +1,15 @@
+characters = {
+	HSC_silver_shine = {
+		name = HSC_silver_shine
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BTM/Silver_Shine.tga"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			id = -1
+		}
+	}
+}
+	

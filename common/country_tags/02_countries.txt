@@ -1,2 +1,4 @@
 BTM = "countries/Baltimare.txt"
+HSC = "countries/Hayseatic Cities.txt"
+LRS = "countries/Lyricac State.txt"
 TST = "countries/Test Country.txt"

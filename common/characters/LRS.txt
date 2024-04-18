@@ -1,0 +1,15 @@
+characters = {
+	LRS_lyrica_lilac = {
+		name = LRS_lyrica_lilac
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LRS/Lyrica_Lilac.tga"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			id = -1
+		}
+	}
+}
+	
