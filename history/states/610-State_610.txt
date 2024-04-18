@@ -9,4 +9,10 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
+	
+	history = {
+		owner = BTM
+		add_core_of = BTM
+		victory_points = { 1983 3 }
+	}
 }

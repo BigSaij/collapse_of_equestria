@@ -1,0 +1,15 @@
+characters = {
+	BTM_filthy_rich = {
+		name = BTM_filthy_rich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BTM/Filthy_Rich.tga"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			id = -1
+		}
+	}
+}
+	

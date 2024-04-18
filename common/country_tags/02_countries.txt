@@ -1,0 +1,2 @@
+BTM = "countries/Baltimare.txt"
+TST = "countries/Test Country.txt"

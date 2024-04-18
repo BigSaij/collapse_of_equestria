@@ -1,0 +1,23 @@
+bookmarks = {
+	bookmark = {
+		name = "EQUESTRIA_FRACTURED_NAME"
+		desc = "EQUESTRIA_FRACTURED_DESC"
+		date = 1010.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "BTM"
+		default = yes
+		
+		"---"={
+			history = "OTHER_EQUESTRIA_FRACTURED_DESC"
+		}
+		
+		"BTM"={
+			history = "BTM_EQUESTRIA_FRACTURED_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+	}
+}
