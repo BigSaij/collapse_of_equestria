@@ -1,0 +1,15 @@
+characters = {
+	EQS_twilight_sparkle = {
+		name = EQS_twilight_sparkle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EQS/Twilight_Sparkle.tga"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			id = -1
+		}
+	}
+}
+	
