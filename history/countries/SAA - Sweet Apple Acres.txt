@@ -1,6 +1,6 @@
-﻿capital = 557 #Baltimare
+﻿capital = 489 #Sweet Apple Acres
 
-oob = "BTM_1005"
+oob = "SAA_1005"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,16 +87,16 @@ if = {
 	}
 }
 
-recruit_character = BTM_filthy_rich
+recruit_character = SAA_applejack
 
 set_popularities = {
-	harmonism = 30
-	pragmatism = 60
+	harmonism = 80
 	supremacism = 10
+	pragmatism = 10
 }
 
 set_politics = {
-	ruling_party = pragmatism
+	ruling_party = harmonism
 	last_election = "1000.1.1"
 	election_frequency = 48
 	elections_allowed = no

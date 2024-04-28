@@ -90,13 +90,13 @@ if = {
 recruit_character = EQS_twilight_sparkle
 
 set_popularities = {
-	democratic = 80
-	neutrality = 10
-	fascism = 10
+	harmonism = 80
+	supremacism = 10
+	pragmatism = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = harmonism
 	last_election = "1000.1.1"
 	election_frequency = 48
 	elections_allowed = no

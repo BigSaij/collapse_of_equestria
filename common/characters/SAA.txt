@@ -1,0 +1,15 @@
+characters = {
+	SAA_applejack = {
+		name = SAA_applejack
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAA/Applejack.tga"
+			}
+		}
+		country_leader = {
+			ideology = agrarian_harmonism
+			id = -1
+		}
+	}
+}
+	

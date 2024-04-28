@@ -1,0 +1,18 @@
+
+
+#### Ideology Icons ####
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ideology_harmonism_group"
+		texturefile = "gfx/interface/ideologies/harmonism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_supremacism_group"
+		texturefile = "gfx/interface/ideologies/supremacism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_pragmatism_group"
+		texturefile = "gfx/interface/ideologies/pragmatism_group.dds"
+	}
+}

@@ -90,13 +90,13 @@ if = {
 recruit_character = HSC_silver_shine
 
 set_popularities = {
-	democratic = 30
-	neutrality = 60
-	fascism = 10
+	harmonism = 30
+	pragmatism = 60
+	supremacism = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = pragmatism
 	last_election = "1000.1.1"
 	election_frequency = 48
 	elections_allowed = no
