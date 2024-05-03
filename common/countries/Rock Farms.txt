@@ -1,0 +1,6 @@
+#Rock Farms
+
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_2d
+
+color = rgb { 241 175 211 }

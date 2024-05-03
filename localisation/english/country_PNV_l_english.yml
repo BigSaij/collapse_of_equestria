@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ PNV:0 "Ponyville"
+ PNV_DEF:0 "the Mayordom of Ponyville"
+ PNV_ADJ:0 "Ponyvillian"
+ 
+ ### CHARACTERS ###
+ PNV_mayor_mare:0 "Mayor Mare"

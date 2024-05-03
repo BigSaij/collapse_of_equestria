@@ -1,0 +1,15 @@
+characters = {
+	TLC_starlight_glimmer = {
+		name = TLC_starlight_glimmer
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TLC/Starlight_Glimmer.tga"
+			}
+		}
+		country_leader = {
+			ideology = modernized_harmonism
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,15 @@
+characters = {
+	ROC_pinkie_pie = {
+		name = ROC_pinkie_pie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROC/Pinkie_Pie.tga"
+			}
+		}
+		country_leader = {
+			ideology = agrarian_harmonism
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ MAN:0 "Manehattan"
+ MAN_DEF:0 "the Aristocratic Republic of Manehattan"
+ MAN_ADJ:0 "Manehattanite"
+ 
+ ### CHARACTERS ###
+ MAN_rarity:0 "Rarity"

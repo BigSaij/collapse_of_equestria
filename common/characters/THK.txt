@@ -1,0 +1,15 @@
+characters = {
+	THK_king_aspen = {
+		name = THK_king_aspen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/THK/King_Aspen.tga"
+			}
+		}
+		country_leader = {
+			ideology = naturalism
+			id = -1
+		}
+	}
+}
+	

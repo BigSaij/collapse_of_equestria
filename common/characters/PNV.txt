@@ -1,0 +1,15 @@
+characters = {
+	PNV_mayor_mare = {
+		name = PNV_mayor_mare
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PNV/Mayor_Mare.tga"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			id = -1
+		}
+	}
+}
+	

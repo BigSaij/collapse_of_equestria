@@ -1,0 +1,15 @@
+characters = {
+	EVF_zecora = {
+		name = EVF_zecora
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EVF/Zecora.tga"
+			}
+		}
+		country_leader = {
+			ideology = naturalized_harmonism
+			id = -1
+		}
+	}
+}
+	

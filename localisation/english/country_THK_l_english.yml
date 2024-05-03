@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ THK:0 "Thicket"
+ THK_DEF:0 "the Village Territories of Thicket"
+ THK_ADJ:0 "Thicketer"
+ 
+ ### CHARACTERS ###
+ THK_king_aspen:0 "King Aspen"

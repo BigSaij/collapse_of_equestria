@@ -1,0 +1,15 @@
+characters = {
+	MAN_rarity = {
+		name = MAN_rarity
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Rarity.tga"
+			}
+		}
+		country_leader = {
+			ideology = aristocratic_harmonism
+			id = -1
+		}
+	}
+}
+	

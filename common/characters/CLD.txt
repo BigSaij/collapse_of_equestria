@@ -1,0 +1,15 @@
+characters = {
+	CLD_rainbow_dash = {
+		name = CLD_rainbow_dash
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CLD/Rainbow_Dash.tga"
+			}
+		}
+		country_leader = {
+			ideology = stratocratic_harmonism
+			id = -1
+		}
+	}
+}
+	

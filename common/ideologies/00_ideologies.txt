@@ -11,6 +11,22 @@ ideologies = {
 			agrarian_harmonism = {
 				can_be_randomly_selected = no
 			}
+			
+			stratocratic_harmonism = {
+				can_be_randomly_selected = no
+			}
+			
+			aristocratic_harmonism = {
+				can_be_randomly_selected = no
+			}
+			
+			modernized_harmonism = {
+				can_be_randomly_selected = no
+			}
+			
+			naturalized_harmonism = {
+				can_be_randomly_selected = no
+			}
 
 			liberalism = {
 			}
@@ -121,6 +137,10 @@ ideologies = {
 	pragmatism = {
 
 		types = {
+			
+			naturalism = {
+				can_be_randomly_selected = no
+			}
 
 			despotism  = {
 			}
