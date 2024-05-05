@@ -92,7 +92,13 @@ ideologies = {
 	supremacism = {
 
 		types = {
+			
+			tyrannical_despotism = {
+				
+			}
+			
 			fascism_ideology = {
+				
 			}
 		}
 
@@ -139,6 +145,10 @@ ideologies = {
 		types = {
 			
 			naturalism = {
+				can_be_randomly_selected = no
+			}
+			
+			stratocracy = {
 				can_be_randomly_selected = no
 			}
 

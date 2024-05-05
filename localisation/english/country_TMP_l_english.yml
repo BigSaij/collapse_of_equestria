@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ TMP:0 "Tempest Realm"
+ TMP_DEF:0 "the Realm of Tempest Shadow"
+ TMP_ADJ:0 "Tempest"
+ 
+ ### CHARACTERS ###
+ TMP_tempest_shadow:0 "Tempest Shadow"

@@ -1,0 +1,15 @@
+characters = {
+	TMP_tempest_shadow = {
+		name = TMP_tempest_shadow
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TMP/Tempest_Shadow.tga"
+			}
+		}
+		country_leader = {
+			ideology = stratocracy
+			id = -1
+		}
+	}
+}
+	

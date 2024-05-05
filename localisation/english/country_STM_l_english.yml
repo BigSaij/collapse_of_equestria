@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ STM:0 "Storm Kingdom"
+ STM_DEF:0 "the Storm Kingdom"
+ STM_ADJ:0 "Storm"
+ 
+ ### CHARACTERS ###
+ STM_storm_king:0 "Storm King"

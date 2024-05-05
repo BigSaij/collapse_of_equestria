@@ -1,0 +1,15 @@
+characters = {
+	STM_storm_king = {
+		name = STM_storm_king
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STM/Storm_King.tga"
+			}
+		}
+		country_leader = {
+			ideology = tyrannical_despotism
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,15 @@
+characters = {
+	DGC_cherry_jubilee = {
+		name = DGC_cherry_jubilee
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DGC/Cherry_Jubilee.tga"
+			}
+		}
+		country_leader = {
+			ideology = agrarian_harmonism
+			id = -1
+		}
+	}
+}
+	
