@@ -1,5 +1,5 @@
-name="collapse-of-equestria-test-folder"
-path="mod/collapse-of-equestria-test-folder"
+name="Collapse of Equestria"
+path="mod/collapse_of_equestria"
 tags={
 	"Map"
 	"Utilities"
