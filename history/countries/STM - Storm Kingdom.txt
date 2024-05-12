@@ -1,6 +1,6 @@
 ﻿capital = 9 #Storm Fortress
 
-oob = "STM_1005"
+oob = "STM_1010"
 
 set_research_slots = 3
 set_stability = 0.45

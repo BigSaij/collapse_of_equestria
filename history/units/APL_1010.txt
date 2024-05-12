@@ -1,0 +1,36 @@
+﻿
+division_template = {
+	name = "Appleloosan Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Appleloosan Guard"
+		location = 1851
+		division_template = "Appleloosan Guard"
+		start_experience_factor = 0.2
+		start_manpower_factor = 1
+		start_equipment_factor = 1
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "APL"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}

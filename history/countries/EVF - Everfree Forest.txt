@@ -1,6 +1,6 @@
 ﻿capital = 515 #Castle of the Two Sisters
 
-oob = "EVF_1005"
+oob = "EVF_1010"
 
 set_research_slots = 3
 set_stability = 0.45

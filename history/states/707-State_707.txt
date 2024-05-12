@@ -2,8 +2,15 @@
 state={
 	id=707
 	name="STATE_707"
+
+	history={
+		owner = IPU
+		add_core_of = IPU
+
+	}
+
 	provinces={
-		2910 4788 4878 5151 9895 9952 
+		1965 2910 4788 4878 5151 9895 9952 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

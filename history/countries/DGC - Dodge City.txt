@@ -1,6 +1,6 @@
 ﻿capital = 592 #Dodge City
 
-oob = "DGC_1005"
+oob = "DGC_1010"
 
 set_research_slots = 3
 set_stability = 0.45

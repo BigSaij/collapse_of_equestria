@@ -1,6 +1,6 @@
 ﻿capital = 543 #Monacolt
 
-oob = "HSC_1005"
+oob = "HSC_1010"
 
 set_research_slots = 3
 set_stability = 0.45

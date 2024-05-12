@@ -1,0 +1,15 @@
+characters = {
+	IPU_sable_spirit = {
+		name = IPU_sable_spirit
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IPU/Sable_Spirit.tga"
+			}
+		}
+		country_leader = {
+			ideology = magocracy
+			id = -1
+		}
+	}
+}
+	

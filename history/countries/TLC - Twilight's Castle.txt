@@ -1,6 +1,6 @@
 ﻿capital = 449 #Twilight's Castle
 
-oob = "TLC_1005"
+oob = "TLC_1010"
 
 set_research_slots = 3
 set_stability = 0.45

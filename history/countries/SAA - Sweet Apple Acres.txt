@@ -1,6 +1,6 @@
 ﻿capital = 489 #Sweet Apple Acres
 
-oob = "SAA_1005"
+oob = "SAA_1010"
 
 set_research_slots = 3
 set_stability = 0.45

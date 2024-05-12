@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ BUF:0 "Buffalo Chiefdom"
+ BUF_DEF:0 "the Chiefdom of the Buffalo"
+ BUF_ADJ:0 "Buffalo"
+ 
+ ### CHARACTERS ###
+ BUF_chief_thunderhooves:0 "Chief Thunderhooves"

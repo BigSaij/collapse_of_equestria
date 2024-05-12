@@ -1,6 +1,6 @@
 ﻿capital = 557 #Baltimare
 
-oob = "BTM_1005"
+oob = "BTM_1010"
 
 set_research_slots = 3
 set_stability = 0.45

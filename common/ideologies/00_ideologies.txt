@@ -151,6 +151,14 @@ ideologies = {
 			stratocracy = {
 				can_be_randomly_selected = no
 			}
+			
+			traditionalism = {
+				can_be_randomly_selected = no
+			}
+			
+			magocracy = {
+				can_be_randomly_selected = no
+			}
 
 			despotism  = {
 			}

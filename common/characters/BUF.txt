@@ -1,0 +1,15 @@
+characters = {
+	BUF_chief_thunderhooves = {
+		name = BUF_chief_thunderhooves
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUF/Chief_Thunderhooves.tga"
+			}
+		}
+		country_leader = {
+			ideology = traditionalism
+			id = -1
+		}
+	}
+}
+	

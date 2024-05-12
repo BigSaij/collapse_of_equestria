@@ -1,6 +1,6 @@
 ﻿capital = 276 #Cloudsdale
 
-oob = "CLD_1005"
+oob = "CLD_1010"
 
 set_research_slots = 3
 set_stability = 0.45

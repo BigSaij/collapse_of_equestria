@@ -1,0 +1,15 @@
+characters = {
+	APL_sheriff_silverstar = {
+		name = APL_sheriff_silverstar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/APL/Sheriff_Silverstar.tga"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			id = -1
+		}
+	}
+}
+	

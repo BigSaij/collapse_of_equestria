@@ -1,6 +1,6 @@
 ﻿capital = 573 #Ellicolt City
 
-oob = "LRS_1005"
+oob = "LRS_1010"
 
 set_research_slots = 3
 set_stability = 0.45

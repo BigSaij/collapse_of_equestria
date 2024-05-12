@@ -1,0 +1,15 @@
+characters = {
+	CTE_princess_cadance = {
+		name = CTE_princess_cadance
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CTE/Princess_Cadance.tga"
+			}
+		}
+		country_leader = {
+			ideology = alicorn_rule
+			id = -1
+		}
+	}
+}
+	

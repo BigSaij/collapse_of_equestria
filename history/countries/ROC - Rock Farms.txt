@@ -1,6 +1,6 @@
 ﻿capital = 652 #Rock Farm
 
-oob = "ROC_1005"
+oob = "ROC_1010"
 
 set_research_slots = 3
 set_stability = 0.45

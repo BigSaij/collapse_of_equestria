@@ -9,4 +9,10 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
+	
+	history = {
+		owner = CTE
+		add_core_of = CTE
+		victory_points = { 6008 50 }
+	}
 }

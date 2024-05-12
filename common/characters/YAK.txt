@@ -1,0 +1,15 @@
+characters = {
+	YAK_prince_rutherford = {
+		name = YAK_prince_rutherford
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Prince_Rutherford.tga"
+			}
+		}
+		country_leader = {
+			ideology = traditionalism
+			id = -1
+		}
+	}
+}
+	
