@@ -1,0 +1,15 @@
+characters = {
+	SNB_somnambula = {
+		name = SNB_somnambula
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SNB/Somnambula.tga"
+			}
+		}
+		country_leader = {
+			ideology = populism
+			id = -1
+		}
+	}
+}
+	
