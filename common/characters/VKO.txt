@@ -1,0 +1,15 @@
+characters = {
+	VKO_verko = {
+		name = VKO_verko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VKO/Verko.tga"
+			}
+		}
+		country_leader = {
+			ideology = kleptocracy
+			id = -1
+		}
+	}
+}
+	

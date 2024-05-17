@@ -27,6 +27,14 @@ ideologies = {
 			naturalized_harmonism = {
 				can_be_randomly_selected = no
 			}
+			
+			market_harmonism = {
+				can_be_randomly_selected = no
+			}
+			
+			absolutist_harmonism = {
+				can_be_randomly_selected = no
+			}
 
 			liberalism = {
 			}
@@ -95,6 +103,10 @@ ideologies = {
 			
 			tyrannical_despotism = {
 				
+			}
+			
+			kleptocracy = {
+				can_be_randomly_selected = no
 			}
 			
 			fascism_ideology = {

@@ -9,6 +9,7 @@ supported_version="1.14.4"
 
 replace_path="history/states"
 replace_path="history/countries"
+replace_path="history/general"
 replace_path="map/supplyareas"
 replace_path="map/strategicregions"
 replace_path="common/bookmarks"

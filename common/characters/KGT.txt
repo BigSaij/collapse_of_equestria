@@ -1,0 +1,15 @@
+characters = {
+	KGT_capper = {
+		name = KGT_capper
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KGT/Capper.tga"
+			}
+		}
+		country_leader = {
+			ideology = market_harmonism
+			id = -1
+		}
+	}
+}
+	

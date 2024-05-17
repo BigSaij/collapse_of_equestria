@@ -1,0 +1,127 @@
+characters = {
+	HPG_queen_novo = {
+		name = HPG_queen_novo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Queen_Novo.tga"
+			}
+		}
+		country_leader = {
+			ideology = absolutist_harmonism
+			id = -1
+		}
+	}
+	HPG_princess_skystar = {
+		name = HPG_princess_skystar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Princess_Skystar.tga"
+			}
+		}
+	}
+	HPG_salina_blue = {
+		name = HPG_salina_blue
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Salina_Blue.tga"
+			}
+		}
+	}
+	HPG_sky_beak = {
+		name = HPG_sky_beak
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Sky_Beak.tga"
+			}
+		}
+	}
+	HPG_ocean_flow = {
+		name = HPG_ocean_flow
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Ocean_Flow.tga"
+			}
+		}
+	}
+	HPG_haven_bay = {
+		name = HPG_haven_bay
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Haven_Bay.tga"
+			}
+		}
+	}
+	HPG_terramar = {
+		name = HPG_terramar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Terramar.tga"
+			}
+		}
+	}
+	HPG_stratus_skyranger = {
+		name = HPG_stratus_skyranger
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Stratus_Skyranger.tga"
+			}
+		}
+	}
+	HPG_silverstream = {
+		name = HPG_silverstream
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Silverstream.tga"
+			}
+		}
+	}
+	HPG_general_seaspray = {
+		name = HPG_general_seaspray
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/General_Seaspray.tga"
+			}
+		}
+	}
+	HPG_golden_fin = {
+		name = HPG_golden_fin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Golden_Fin.tga"
+			}
+		}
+	}
+	HPG_crystal_tide = {
+		name = HPG_crystal_tide
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Crystal_Tide.tga"
+			}
+		}
+	}
+	HPG_coral_rose = {
+		name = HPG_coral_rose
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Coral_Rose.tga"
+			}
+		}
+	}
+	HPG_cerulean = {
+		name = HPG_cerulean
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Cerulean.tga"
+			}
+		}
+	}
+	HPG_sir_aston = {
+		name = HPG_sir_aston
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HPG/Sir_Aston.tga"
+			}
+		}
+	}
+}
+	
