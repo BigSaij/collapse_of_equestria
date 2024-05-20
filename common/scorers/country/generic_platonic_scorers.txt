@@ -1,0 +1,132 @@
+supremacism_major_scorer = { #Finds biggest Supremacist
+    # Valid example of mission scorer:
+	targets = {
+		# describe the target to consider
+		targets_dynamic = no
+		target_non_existing = no
+		#target_array = global.majors
+		target_array = global.countries
+		# MTTH like score description
+		# THIS is a target
+		# FROM is the initiator
+		score = {
+			base = 1
+			# Add tension added by country
+			modifier = {
+				always = yes 
+				add = has_added_tension_amount
+			}        
+			# Add total number of Divisions 
+			modifier = {
+				always = yes 
+				add = num_armies
+			}
+			# add factories
+			modifier = {
+				always = yes 
+				add = num_of_factories
+			}
+			modifier = {
+				is_major = yes
+				add = 100
+			}
+			modifier = {
+				is_faction_leader = yes 
+				add = 50
+			}
+			modifier = {
+				NOT = { has_government = supremacism }
+				factor = 0 
+			}
+			modifier = {
+				exists = no 
+				factor = 0
+			}
+		}
+	}
+}
+harmonism_major_scorer = { # Finds biggest Harmonist Nation
+	targets = {
+		# describe the target to consider
+		targets_dynamic = no
+		target_non_existing = no
+		#target_array = global.majors
+		target_array = global.countries
+		# MTTH like score description
+		# THIS is a target
+		# FROM is the initiator
+		score = {
+			base = 1
+			# Add tension added by country
+			modifier = {
+				always = yes 
+				add = has_added_tension_amount
+			}        
+			# Add total number of Divisions 
+			modifier = {
+				always = yes 
+				add = num_armies
+			}
+			# add factories
+			modifier = {
+				always = yes 
+				add = num_of_factories
+			}
+			modifier = {
+				is_major = yes
+				add = 100
+			}
+			modifier = {
+				is_faction_leader = yes 
+				add = 50
+			}
+			modifier = {
+				NOT = { has_government = harmonism }
+				factor = 0 
+			}
+		}
+	}
+}
+
+pragmatism_major_scorer = { # Finds biggest Pragmatist
+	targets = {
+		# describe the target to consider
+		targets_dynamic = no
+		target_non_existing = no
+		#target_array = global.majors
+		target_array = global.countries
+		# MTTH like score description
+		# THIS is a target
+		# FROM is the initiator
+		score = {
+			base = 1
+			# Add tension added by country
+			modifier = {
+				always = yes 
+				add = has_added_tension_amount
+			}        
+			# Add total number of Divisions 
+			modifier = {
+				always = yes 
+				add = num_armies
+			}
+			# add factories
+			modifier = {
+				always = yes 
+				add = num_of_factories
+			}
+			modifier = {
+				is_major = yes
+				add = 100
+			}
+			modifier = {
+				is_faction_leader = yes 
+				add = 50
+			}
+			modifier = {
+				NOT = { has_government = pragmatism }
+				factor = 0 
+			}
+		}
+	}
+}

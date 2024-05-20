@@ -75,14 +75,6 @@ characters = {
 			}
 		}
 	}
-	HPG_general_seaspray = {
-		name = HPG_general_seaspray
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/HPG/General_Seaspray.tga"
-			}
-		}
-	}
 	HPG_golden_fin = {
 		name = HPG_golden_fin
 		portraits = {

@@ -1,0 +1,15 @@
+characters = {
+	HGM_general_seaspray = {
+		name = HGM_general_seaspray
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HGM/General_Seaspray.tga"
+			}
+		}
+		country_leader = {
+			ideology = stratocratic_harmonism
+			id = -1
+		}
+	}
+}
+	

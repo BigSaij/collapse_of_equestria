@@ -1,6 +1,6 @@
-﻿capital = 40 #Hippogriffia
+﻿capital = 975 #Hippogriff Fortress
 
-oob = "HPG_1010"
+oob = "HGM_1010"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,20 +87,7 @@ if = {
 	}
 }
 
-recruit_character = HPG_queen_novo
-recruit_character = HPG_princess_skystar
-recruit_character = HPG_salina_blue
-recruit_character = HPG_sky_beak
-recruit_character = HPG_ocean_flow
-recruit_character = HPG_haven_bay
-recruit_character = HPG_terramar
-recruit_character = HPG_stratus_skyranger
-recruit_character = HPG_silverstream
-recruit_character = HPG_golden_fin
-recruit_character = HPG_crystal_tide
-recruit_character = HPG_coral_rose
-recruit_character = HPG_cerulean
-recruit_character = HPG_sir_aston
+recruit_character = HGM_general_seaspray
 
 set_popularities = {
 	harmonism = 80
