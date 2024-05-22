@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	ROC_gummy = { #literal alligator
+		name = ROC_gummy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROC/Gummy.tga"
+			}
+		}
+	}
 }
 	

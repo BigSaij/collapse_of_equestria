@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	TMP_grubber = {
+		name = TMP_grubber
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TMP/Grubber.tga"
+			}
+		}
+	}
 }
 	

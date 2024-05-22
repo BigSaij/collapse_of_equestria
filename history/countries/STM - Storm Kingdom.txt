@@ -88,6 +88,9 @@ if = {
 }
 
 recruit_character = STM_storm_king
+recruit_character = STM_ralph
+recruit_character = STM_sam
+recruit_character = STM_general_klavis
 
 set_popularities = {
 	harmonism = 0

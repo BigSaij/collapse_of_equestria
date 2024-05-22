@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	MAN_smokey = { #literal raccoon, check the wiki
+		name = MAN_smokey
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Smokey.tga"
+			}
+		}
+	}
 }
 	

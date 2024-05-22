@@ -88,6 +88,8 @@ if = {
 }
 
 recruit_character = THK_king_aspen
+recruit_character = THK_prince_bramble
+recruit_character = THK_blackthorn
 
 set_popularities = {
 	harmonism = 20

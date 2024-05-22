@@ -11,5 +11,21 @@ characters = {
 			id = -1
 		}
 	}
+	THK_prince_bramble = {
+		name = THK_prince_bramble
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/THK/Prince_Bramble.tga"
+			}
+		}
+	}
+	THK_blackthorn = {
+		name = THK_blackthorn
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/THK/Blackthorn.tga"
+			}
+		}
+	}
 }
 	

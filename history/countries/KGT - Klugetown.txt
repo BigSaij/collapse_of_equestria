@@ -88,6 +88,7 @@ if = {
 }
 
 recruit_character = KGT_capper
+recruit_character = KGT_vera
 
 set_popularities = {
 	harmonism = 80

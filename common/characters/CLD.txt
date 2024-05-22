@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	CLD_tank = { #the tortoise
+		name = CLD_tank
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CLD/Tank.tga"
+			}
+		}
+	}
 }
 	

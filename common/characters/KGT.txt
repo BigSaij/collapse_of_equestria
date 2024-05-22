@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	KGT_vera = {
+		name = KGT_vera
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KGT/Vera.tga"
+			}
+		}
+	}
 }
 	

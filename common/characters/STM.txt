@@ -11,5 +11,29 @@ characters = {
 			id = -1
 		}
 	}
+	STM_ralph = {
+		name = STM_ralph
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STM/Ralph.tga"
+			}
+		}
+	}
+	STM_sam = {
+		name = STM_sam
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STM/Sam.tga"
+			}
+		}
+	}
+	STM_general_klavis = {
+		name = STM_general_klavis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STM/General_Klavis.tga"
+			}
+		}
+	}
 }
 	
