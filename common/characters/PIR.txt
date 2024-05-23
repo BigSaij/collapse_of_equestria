@@ -1,0 +1,79 @@
+characters = {
+	PIR_captain_celaeno = {
+		name = PIR_captain_celaeno
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Captain_Celaeno.tga"
+			}
+		}
+		country_leader = {
+			ideology = outlaw_harmonism
+			id = -1
+		}
+	}
+	PIR_squabble = {
+		name = PIR_squabble
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Squabble.tga"
+			}
+		}
+	}
+	PIR_pinwheel = {
+		name = PIR_pinwheel
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Pinwheel.tga"
+			}
+		}
+	}
+	PIR_mullet = { #First Mate
+		name = PIR_mullet
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Mullet.tga"
+			}
+		}
+	}
+	PIR_marco = {
+		name = PIR_marco
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Marco.tga"
+			}
+		}
+	}
+	PIR_lix_spittle = {
+		name = PIR_lix_spittle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Lix_Spittle.tga"
+			}
+		}
+	}
+	PIR_brutus = {
+		name = PIR_brutus
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Brutus.tga"
+			}
+		}
+	}
+	PIR_boyle = {
+		name = PIR_boyle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Boyle.tga"
+			}
+		}
+	}
+	PIR_ace = {
+		name = PIR_ace
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIR/Ace.tga"
+			}
+		}
+	}
+}
+	

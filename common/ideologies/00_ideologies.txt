@@ -35,6 +35,10 @@ ideologies = {
 			absolutist_harmonism = {
 				can_be_randomly_selected = no
 			}
+			
+			outlaw_harmonism = {
+				can_be_randomly_selected = no
+			}
 
 			liberalism = {
 			}

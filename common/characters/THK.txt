@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 	}
-	THK_blackthorn = {
+	THK_blackthorn = { #Has bird companion named Calvin
 		name = THK_blackthorn
 		portraits = {
 			civilian = {

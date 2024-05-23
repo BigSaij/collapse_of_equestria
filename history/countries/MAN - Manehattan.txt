@@ -89,6 +89,7 @@ if = {
 
 recruit_character = MAN_rarity
 recruit_character = MAN_smokey
+recruit_character = MAN_opalescence
 
 set_popularities = {
 	harmonism = 50

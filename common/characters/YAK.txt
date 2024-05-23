@@ -11,5 +11,85 @@ characters = {
 			id = -1
 		}
 	}
+	YAK_yona = {
+		name = YAK_yona
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Yona.tga"
+			}
+		}
+	}
+	YAK_yojan = {
+		name = YAK_yojan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Yojan.tga"
+			}
+		}
+	}
+	YAK_yigrid = {
+		name = YAK_yigrid
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Yigrid.tga"
+			}
+		}
+	}
+	YAK_yakmina = {
+		name = YAK_yakmina
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Yakmina.tga"
+			}
+		}
+	}
+	YAK_yakatar = { #Rutherford Aid
+		name = YAK_yakatar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Yakatar.tga"
+			}
+		}
+	}
+	YAK_tormand = {
+		name = YAK_tormand
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Tormand.tga"
+			}
+		}
+	}
+	YAK_leroy = {
+		name = YAK_leroy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Leroy.tga"
+			}
+		}
+	}
+	YAK_ingville = {
+		name = YAK_ingville
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Ingville.tga"
+			}
+		}
+	}
+	YAK_horwitz = { #Yak archivist, Oxenford accent
+		name = YAK_horwitz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Horwitz.tga"
+			}
+		}
+	}
+	YAK_grimhorn = {
+		name = YAK_grimhorn
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Grimhorn.tga"
+			}
+		}
+	}
 }
 	

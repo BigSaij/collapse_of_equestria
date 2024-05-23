@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	EQS_owlowiscious = {
+		name = EQS_owlowiscious
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EQS/Owlowiscious.tga"
+			}
+		}
+	}
 }
 	

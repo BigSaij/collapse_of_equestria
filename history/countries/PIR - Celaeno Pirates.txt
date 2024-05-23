@@ -1,6 +1,6 @@
-﻿capital = 146 #Yakyakistan
+﻿capital = 944 #Pirate's Haven
 
-oob = "YAK_1010"
+oob = "PIR_1010"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,26 +87,24 @@ if = {
 	}
 }
 
-recruit_character = YAK_prince_rutherford
-recruit_character = YAK_yona
-recruit_character = YAK_yojan
-recruit_character = YAK_yigrid
-recruit_character = YAK_yakmina
-recruit_character = YAK_yakatar
-recruit_character = YAK_tormand
-recruit_character = YAK_leroy
-recruit_character = YAK_ingville
-recruit_character = YAK_horwitz
-recruit_character = YAK_grimhorn
+recruit_character = PIR_captain_celaeno
+recruit_character = PIR_squabble
+recruit_character = PIR_pinwheel
+recruit_character = PIR_mullet
+recruit_character = PIR_marco
+recruit_character = PIR_lix_spittle
+recruit_character = PIR_brutus
+recruit_character = PIR_boyle
+recruit_character = PIR_ace
 
 set_popularities = {
-	harmonism = 40
-	supremacism = 30
-	pragmatism = 30
+	harmonism = 80
+	supremacism = 10
+	pragmatism = 10
 }
 
 set_politics = {
-	ruling_party = pragmatism
+	ruling_party = harmonism
 	last_election = "1000.1.1"
 	election_frequency = 48
 	elections_allowed = no

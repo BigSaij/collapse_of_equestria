@@ -88,6 +88,7 @@ if = {
 }
 
 recruit_character = SAA_applejack
+recruit_character = SAA_winona
 
 set_popularities = {
 	harmonism = 80

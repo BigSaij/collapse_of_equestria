@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	SAA_winona = { #literal dog
+		name = SAA_winona
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAA/Winona.tga"
+			}
+		}
+	}
 }
 	

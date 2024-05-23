@@ -89,6 +89,10 @@ if = {
 
 recruit_character = KGT_capper
 recruit_character = KGT_vera
+recruit_character = KGT_pushkin
+recruit_character = KGT_mori
+recruit_character = KGT_louise
+recruit_character = KGT_chummer
 
 set_popularities = {
 	harmonism = 80

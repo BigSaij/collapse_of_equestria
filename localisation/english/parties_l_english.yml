@@ -24,6 +24,8 @@
  market_harmonism_desc:0 "While most harmonic regimes are defined more by their politics than economics, Market Harmonism combines the two into making the focus of the state be prosperous and equal trade with other parties. More wealth-oriented than other harmonic regimes, they still maintain the moral standards of their counterparts and typically reinvest wealth into services for the populace."
  absolutist_harmonism:0 "Absolutist Harmonism"
  absolutist_harmonism_desc:0 "Typically inspired by the rule of Celestia in Equestria, Absolutist Harmonism concentrates all political power in a single figure, usually a monarch who controls the state and ensures that harmonic values are being followed. While absolute systems are usually prone to abuses of power, the leader maintains a kind and noble heart and has good intentions ruling over their subjects for their own good."
+ outlaw_harmonism:0 "Outlaw Harmonism"
+ outlaw_harmonism_desc:0 "Operating outside the constraints of normally-accepted rules and agreements, Outlaw Harmonism is a unique form of harmonism pursuing noble aims using unusally controversial methods. Though as the state their actions can not strictly be defined as illegal or immoral, so-called governments which follow it are often outcasted or looked down upon by the wider world and even other harmonists."
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
  socialism:0 "Socialism"

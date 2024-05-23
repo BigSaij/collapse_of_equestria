@@ -19,5 +19,37 @@ characters = {
 			}
 		}
 	}
+	KGT_pushkin = {
+		name = KGT_pushkin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KGT/Pushkin.tga"
+			}
+		}
+	}
+	KGT_mori = {
+		name = KGT_mori
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KGT/Mori.tga"
+			}
+		}
+	}
+	KGT_louise = {
+		name = KGT_louise
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KGT/Louise.tga"
+			}
+		}
+	}
+	KGT_chummer = {
+		name = KGT_chummer
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KGT/Chummer.tga"
+			}
+		}
+	}
 }
 	

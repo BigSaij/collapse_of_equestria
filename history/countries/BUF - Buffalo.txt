@@ -88,6 +88,9 @@ if = {
 }
 
 recruit_character = BUF_chief_thunderhooves
+recruit_character = BUF_little_strongheart
+recruit_character = BUF_buffy
+recruit_character = BUF_big_angie
 
 set_popularities = {
 	harmonism = 10

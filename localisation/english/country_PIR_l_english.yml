@@ -1,0 +1,16 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ PIR:0 "Celaeno's Pirates"
+ PIR_DEF:0 "the Pirate State of Celaeno"
+ PIR_ADJ:0 "Piratical"
+ 
+ ### CHARACTERS ###
+ PIR_captain_celaeno:0 "Celaeno"
+ PIR_squabble:0 "Squabble"
+ PIR_pinwheel:0 "Pinwheel"
+ PIR_mullet:0 "Mullet"
+ PIR_marco:0 "Marco"
+ PIR_lix_spittle:0 "Lix Spittle"
+ PIR_brutus:0 "Brutus"
+ PIR_boyle:0 "Boyle"
+ PIR_ace:0 "Ace"

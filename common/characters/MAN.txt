@@ -19,5 +19,13 @@ characters = {
 			}
 		}
 	}
+	MAN_opalescence = { #literal raccoon, check the wiki
+		name = MAN_opalescence
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Opalescence.tga"
+			}
+		}
+	}
 }
 	
