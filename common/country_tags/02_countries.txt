@@ -24,3 +24,4 @@ HPG = "countries/Hippogriffia.txt"
 VKO = "countries/Verko State.txt"
 HGM = "countries/Hippogriff Mandate.txt"
 PIR = "countries/Celaeno Pirates.txt"
+HDW = "countries/Hedgewards.txt #states 435/374, capital 8084

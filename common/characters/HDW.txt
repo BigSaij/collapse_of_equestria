@@ -1,0 +1,63 @@
+characters = {
+	HDW_doctor_hooves = {
+		name = HDW_doctor_hooves
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HDW/Doctor_Hooves.tga"
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+			id = -1
+		}
+	}
+	HDW_terabyte_sparkle = {
+		name = HDW_terabyte_sparkle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HDW/Terabyte_Sparkle.tga"
+			}
+		}
+	}
+	HDW_ramity = {
+		name = HDW_ramity
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HDW/RAMity.tga"
+			}
+		}
+	}
+	HDW_robo_dash = {
+		name = HDW_robo_dash
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HDW/Robo_Dash.tga"
+			}
+		}
+	}
+	HDW_cybershy = {
+		name = HDW_cybershy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HDW/Cybershy.tga"
+			}
+		}
+	}
+	HDW_pinkie_pi = {
+		name = HDW_pinkie_pi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HDW/Pinkie_Pi.tga"
+			}
+		}
+	}
+	HDW_autojack = {
+		name = HDW_autojack
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HDW/Autojack.tga"
+			}
+		}
+	}
+}
+	

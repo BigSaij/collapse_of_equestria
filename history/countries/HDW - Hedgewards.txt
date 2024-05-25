@@ -1,6 +1,6 @@
-﻿capital = 245 #Manehattan
+﻿capital = 435 #Hedgewards
 
-oob = "MAN_1010"
+oob = "HDW_1010"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,20 +87,22 @@ if = {
 	}
 }
 
-recruit_character = MAN_rarity
-recruit_character = MAN_smokey
-recruit_character = MAN_opalescence
-recruit_character = MAN_blue_bobbin
-recruit_character = MAN_coco_pommel
+recruit_character = HDW_doctor_hooves
+recruit_character = HDW_terabyte_sparkle
+recruit_character = HDW_ramity
+recruit_character = HDW_robo_dash
+recruit_character = HDW_cybershy
+recruit_character = HDW_pinkie_pi
+recruit_character = HDW_autojack
 
 set_popularities = {
-	harmonism = 50
+	harmonism = 20
 	supremacism = 20
-	pragmatism = 30
+	pragmatism = 60
 }
 
 set_politics = {
-	ruling_party = harmonism
+	ruling_party = pragmatism
 	last_election = "1000.1.1"
 	election_frequency = 48
 	elections_allowed = no

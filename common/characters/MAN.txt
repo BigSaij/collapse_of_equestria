@@ -19,11 +19,27 @@ characters = {
 			}
 		}
 	}
-	MAN_opalescence = { #literal raccoon, check the wiki
+	MAN_opalescence = { #cat
 		name = MAN_opalescence
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Opalescence.tga"
+			}
+		}
+	}
+	MAN_blue_bobbin = {
+		name = MAN_blue_bobbin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Blue_Bobbin.tga"
+			}
+		}
+	}
+	MAN_coco_pommel = {
+		name = MAN_coco_pommel
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Coco_Pommel.tga"
 			}
 		}
 	}
