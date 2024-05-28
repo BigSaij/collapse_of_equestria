@@ -1,0 +1,17 @@
+
+state = {
+	id = 983
+	name = "STATE_983"
+	provinces = {
+		2377 4057 5636 5973 10692 10694 10698 
+	}
+	manpower = 641
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+	
+	history = {
+		owner = STM
+		add_core_of = STM
+	}
+}

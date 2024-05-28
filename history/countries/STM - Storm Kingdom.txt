@@ -87,6 +87,13 @@ if = {
 	}
 }
 
+add_ideas = {
+	partial_economic_mobilisation
+	closed_economy
+	limited_conscription
+}
+	
+
 recruit_character = STM_storm_king
 recruit_character = STM_ralph
 recruit_character = STM_sam
