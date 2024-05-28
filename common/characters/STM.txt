@@ -1,14 +1,22 @@
 characters = {
+	STM_storm_prince = {
+		name = STM_storm_prince
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STM/Storm_Prince.tga"
+			}
+		}
+		country_leader = {
+			ideology = tyrannical_despotism
+			desc = STM_storm_prince_desc
+		}
+	}
 	STM_storm_king = {
 		name = STM_storm_king
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/STM/Storm_King.tga"
 			}
-		}
-		country_leader = {
-			ideology = tyrannical_despotism
-			id = -1
 		}
 	}
 	STM_ralph = {

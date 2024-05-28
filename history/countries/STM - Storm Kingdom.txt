@@ -94,6 +94,7 @@ add_ideas = {
 }
 	
 
+recruit_character = STM_storm_prince
 recruit_character = STM_storm_king
 recruit_character = STM_ralph
 recruit_character = STM_sam

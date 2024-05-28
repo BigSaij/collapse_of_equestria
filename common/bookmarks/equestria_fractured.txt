@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "EQUESTRIA_FRACTURED_DESC"
 		date = 1010.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "BTM"
+		default_country = "STM"
 		default = yes
 		
 		"---"={
@@ -13,7 +13,15 @@ bookmarks = {
 		
 		"BTM"={
 			history = "BTM_EQUESTRIA_FRACTURED_DESC"
-			ideology = neutrality
+			ideology = pragmatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"STM"={
+			history = "STM_EQUESTRIA_FRACTURED_DESC"
+			ideology = supremacism
 			ideas = {
 			}
 			focuses = {
