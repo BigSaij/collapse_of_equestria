@@ -1,0 +1,17 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "countrypoliticsview_ideology_info"
+		position = { x = 88 y = 305 }
+		instantTextboxType = {
+			name = "ideology_gui"
+			position = { x = 9 y = 24 }
+			font = "hoi_16mbs"
+			text = "[GetSubideology]"
+			maxWidth = 155
+			maxHeight = 18
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+}
