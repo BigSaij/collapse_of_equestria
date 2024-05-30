@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		STM_divided_storm = {
+			picture = unknown
+			
+			modifier = {
+				party_popularity_stability_factor = -0.2
+				political_power_gain = -0.5
+				stability_factor = -0.1
+				conscription_factor = -0.1
+				army_org_factor = -0.1
+			}
+		}
+		STM_legacy_of_king = {
+			picture = unknown
+			
+			modifier = {
+				ground_attack_factor = 0.15
+				army_bonus_air_superiority_factor = 0.1
+				air_weather_penalty = -0.6
+				training_time_factor = -0.1
+			}
+		}
+		STM_technological_stagnation = {
+			picture = unknown
+			
+			modifier = {
+				research_speed_factor = -0.2
+			}
+		}
+	}
+}

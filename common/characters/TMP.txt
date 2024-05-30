@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = stratocracy
-			id = -1
+			desc = TMP_tempest_shadow_desc
 		}
 	}
 	TMP_grubber = {
