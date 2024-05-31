@@ -23,6 +23,20 @@ bookmarks = {
 			history = "STM_EQUESTRIA_FRACTURED_DESC"
 			ideology = supremacism
 			ideas = {
+				STM_divided_storm
+				STM_legacy_of_king
+				STM_technological_stagnation
+			}
+			focuses = {
+			}
+		}
+		"TMP"={
+			history = "TMP_EQUESTRIA_FRACTURED_DESC"
+			ideology = pragmatism
+			ideas = {
+				TMP_illegitimate_government
+				TMP_professional_army
+				TMP_equestrian_technological_monopoly
 			}
 			focuses = {
 			}
