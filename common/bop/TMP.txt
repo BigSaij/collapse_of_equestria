@@ -1,0 +1,72 @@
+TMP_tempest_balance = {
+	initial_value = 0
+	left_side = TMP_tempest_side
+	right_side = TMP_fizzlepop_side
+	decision_category = TMP_tempest_bop_category
+	
+	side = {
+		id = TMP_tempest_side
+		icon = GFX_idea_generic_degauss_ship_hulls
+	}
+	side = {
+		id = TMP_fizzlepop_side
+		icon = GFX_idea_generic_agrarian_society
+	}
+	
+	range = {
+		id = TMP_tempest_dominance
+		min = -1
+		max = -0.6
+		modifier = {
+			war_support_factor = 0.2
+			political_power_gain = 0.2
+			army_attack_factor = 0.1
+			stability_factor = -0.1
+			research_speed_factor = -0.05
+		}
+	}
+	range = {
+		id = TMP_tempest_leaning
+		min = -0.6
+		max = -0.2
+		modifier = {
+			war_support_factor = 0.1
+			political_power_gain = 0.1
+			army_attack_factor = 0.05
+			stability_factor = -0.05
+		}
+	}
+	range = {
+		id = TMP_bop_neutral
+		min = -0.2
+		max = 0.21
+		modifier = {
+			war_support_factor = 0.05
+			stability_factor = 0.05
+			political_power_gain = 0.1
+		}
+	}
+	range = {
+		id = TMP_fizzlepop_leaning
+		min = 0.21
+		max = 0.61
+		modifier = {
+			stability_factor = 0.1
+			political_power_gain = 0.1
+			research_speed_factor = 0.05
+			war_support_factor = -0.05
+		}
+	}
+	range = {
+		id = TMP_fizzlepop_dominance
+		min = 0.61
+		max = 1
+		modifier = {
+			stability_factor = 0.2
+			political_power_gain = 0.2
+			research_speed_factor = 0.1
+			war_support_factor = -0.1
+			army_attack_factor = -0.05
+		}
+	}
+}
