@@ -1,0 +1,15 @@
+﻿l_english:
+ ### TOOLTIPS ###
+ PRODUCTION_MATERIALS_MAGIC:0 "Magic"
+ magic_desc:0 "Magic represents pure energy drawn from the world, put into condensed and transportable form. It is mainly important for the operation of magical structures, but is not directly usable in this form."
+ PRODUCTION_MATERIALS_ANTIMAGIC:0 "Anti-Magic Material"
+ antimagic_desc:0 "Anti-Magic Material represents many different types of material from stone to metal that all share the property of being magic-resistant. It is primarily for anti-magical weaponry."
+ #Note: Steel Loc will be in overrides folder
+ #See Above
+ PRODUCTION_MATERIALS_FABRIC:0 "Fabric"
+ fabric_desc:0 "Fabric is a material used mostly for uniforms, naval ships and airships."
+ PRODUCTION_MATERIALS_CRYSTAL:0 "Crystal"
+ crystal_desc:0 "Crystal is a rarer resource often used for storing magic and being able to focus it into useful spells, such as levitation or weaponry. It is most commonly mined from mountains."
+ PRODUCTION_MATERIALS_COAL:0 "Coal"
+ coal_desc:0 "Coal is a relatively newer resource in Equestria and beyond, used for steam engines and in advanced weaponry as a substitute for gunpowder."
+ 

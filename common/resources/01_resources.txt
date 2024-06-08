@@ -1,0 +1,38 @@
+resources = {
+
+	magic = {
+		icon_frame = 1
+		cic = 0.1
+		convoys = 0.1
+	}
+
+	antimagic = {
+		icon_frame = 2
+		cic = 0.25
+		convoys = 0.1
+	}
+
+	fabric = {
+		icon_frame = 3
+		cic = 0.1
+		convoys = 0.1
+	}
+	
+	crystal = {
+		icon_frame = 4
+		cic = 0.25
+		convoys = 0.1
+	}
+	
+	steel = {
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	coal = {
+		icon_frame = 6
+		cic = 0.125
+		convoys = 0.1
+	}
+}
