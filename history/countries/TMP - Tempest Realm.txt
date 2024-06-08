@@ -96,6 +96,8 @@ set_power_balance = {
 
 recruit_character = TMP_tempest_shadow
 recruit_character = TMP_grubber
+recruit_character = TMP_glitter_drops
+recruit_character = TMP_spring_rain
 
 set_popularities = {
 	harmonism = 10

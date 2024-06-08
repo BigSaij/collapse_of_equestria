@@ -19,5 +19,34 @@ characters = {
 			}
 		}
 	}
+	TMP_glitter_drops = {
+		name = TMP_glitter_drops
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TMP/Glitter_Drops.tga"
+			}
+		}
+		country_leader = {
+			ideology = modernized_harmonism
+			desc = TMP_LEADER_glitter_drops_desc
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+			desc = TMP_glitter_drops_general_desc
+		}
+	}
+	TMP_spring_rain = {
+		name = TMP_spring_rain
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TMP/Spring_Rain.tga"
+			}
+		}
+	}
 }
 	
