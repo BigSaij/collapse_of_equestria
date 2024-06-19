@@ -5,10 +5,22 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/TMP/Tempest_Shadow.tga"
 			}
+			army = {
+				large = "gfx/leader/TMP/Tempest_Shadow.tga"
+			}
 		}
 		country_leader = {
 			ideology = stratocracy
 			desc = TMP_tempest_shadow_desc
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			desc = TMP_tempest_shadow_general_desc
 		}
 	}
 	TMP_grubber = {
@@ -24,6 +36,9 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/TMP/Glitter_Drops.tga"
+			}
+			army = {
+				large = "gfx/leader/TMP/Glitter_Drops.tga"
 			}
 		}
 		country_leader = {
