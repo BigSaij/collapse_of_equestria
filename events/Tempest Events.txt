@@ -1,0 +1,15 @@
+add_namespace = tempest
+
+country_event = {
+	id = tempest.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tempest.1" }
+	title = tempest.1.t
+	desc = tempest.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = tempest.1.a
+	}
+}

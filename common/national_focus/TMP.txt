@@ -1,0 +1,81 @@
+focus_tree = {
+	id = TMP_starting_tree
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 20
+			tag = TMP
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 550 y = 1800 }
+	initial_show_position = { focus = TMP_between_two_worlds }
+	shared_focus = TMP_between_two_worlds
+}
+
+
+###################
+###STARTING TREE###
+###################
+
+shared_focus = {
+	id = TMP_between_two_worlds
+	icon = GFX_goal_generic_construction
+	x = 12
+	y = 0
+	cost = 5
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_between_two_worlds"
+		add_political_power = 25
+		add_stability = 0.05
+		country_event = tempest.1
+	}
+	search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = TMP_an_old_life
+	icon = GFX_goal_generic_construction
+	x = -2
+	y = 1
+	relative_position_id = TMP_between_two_worlds
+	cost = 5
+	prerequisite = {
+		focus = TMP_between_two_worlds
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_an_old_life"
+		add_manpower = 150
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_some_older_friends
+	icon = GFX_goal_generic_construction
+	x = 2
+	y = 1
+	relative_position_id = TMP_between_two_worlds
+	cost = 5
+	prerequisite = {
+		focus = TMP_between_two_worlds
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_some_older_friends"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}

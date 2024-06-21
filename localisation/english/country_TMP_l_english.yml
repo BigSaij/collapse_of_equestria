@@ -25,7 +25,7 @@
  TMP_tempest_leaning:0 "Tempest Shadow - Leaning"
  TMP_bop_neutral:0 "Neutral"
  TMP_fizzlepop_leaning:0 "Fizzlepop Berrytwist - Leaning"
- TMP_fizzlepop_dominant:0 "Fizzlepop Berrytwist - Dominant"
+ TMP_fizzlepop_dominance:0 "Fizzlepop Berrytwist - Dominant"
  
  ### IDEAS ###
  TMP_illegitimate_government:0 "Illegitimate Government"
@@ -34,3 +34,9 @@
  TMP_professional_army_desc:0 "The army led personally by Commander Tempest is one that is highly trained, drilled, and instilled within it absolute discipline. The storm creatures, already obedient creatures have risen up to her expectations of total loyalty, creating a force more effective than perhaps any other in the world. This discipline does not come without downsides however, and the army is limited in size and organization as not many can pass Tempest's harsh standards."
  TMP_equestrian_technological_monopoly:0 "Equestrian Technological Monopoly"
  TMP_equestrian_technological_monopoly_desc:0 "The storm creatures, for all their strength and power, are not exactly known for being the smartest creatures in the world. As such, practically all research and development is left to the few Equestrian exiles who followed Tempest to Storm Island, giving them a total monopoly on technological advancements. Their small number and limited resources mean they can only do so much, and even with their slow progress some storm creatures feel resentment at their perceived arrogance and demands."
+ 
+ ### EVENTS ###
+ tempest.1.t:0 "In The Eye Of The Storm"
+ tempest.1.d:0 ""Wow, what a day, huh? I mean, basically every day is like this now, and like, I was totally into how you absolutely destroyed that ambush earlier, but I'm starting to run out of sponge cake and you know how I get when I-"\n\n"Grubber."\n\n"Right, sorry."\n\nTempest Shadow closed her eyes and took a deep breath before returning her attention to the map in front of her. She knew the Storm Island well; it had been the closest thing to a home for a good part of her life. Here she had trained relentlessly in the mountains to grow stronger, all to one day regain what was taken from her. And now, after countless moons of subjugation campaigns under the Storm King's banner and subsequent soul-searching in Equestria, she was back.\n\n"Some of the guys are asking me when we're gonna go out and beat that poser," her hedgehog sidekick continued from behind her. "Personally, you know how much I like being here instead of out there, but that Storm Prince loser is getting stronger every day and losing a fight is not a good look for me. Uh, I mean us."\n\n"I am well of that, Grubber," Tempest replied. "Tell them to expect a war within the year. Glitter Drops is still working on finding more Equestrians to help."\n\nGrubber waddled up to sit on one of the stools strewn throughout the room. "Yeah, I don't think they'll be too happy about that either. I get that she's your friend and all that, but whenever she tries to give orders to the others it does not go well, let me tell you." The commander didn't offer a response. "Tempest? Hello?"\n\nTempest wasn't listening. Instead, she focused on the shard of stone next to the map. He had been a true tyrant, eccentric but cold and calculating enough to almost destroy Equestria once. She couldn't let it happen again. "Grubber, you're dismissed," she said, her voice hard. "I'll see you at dawn tomorrow."\n\nShe had to do this. She had to win, no matter what it took. Her friends, Princess Twilight, all of Equestria was counting on her even if they didn't know it yet.\n\nHer horn sparked with energy, burning a hole through the map where the old Storm Fortress was. It was time to go."
+ tempest.1.a:0 "We are running out of time."
+ 

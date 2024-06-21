@@ -6,7 +6,7 @@ characters = {
 				large = "gfx/leaders/TMP/Tempest_Shadow.tga"
 			}
 			army = {
-				large = "gfx/leader/TMP/Tempest_Shadow.tga"
+				large = "gfx/leaders/TMP/Tempest_Shadow.tga"
 			}
 		}
 		country_leader = {
@@ -38,7 +38,7 @@ characters = {
 				large = "gfx/leaders/TMP/Glitter_Drops.tga"
 			}
 			army = {
-				large = "gfx/leader/TMP/Glitter_Drops.tga"
+				large = "gfx/leaders/TMP/Glitter_Drops.tga"
 			}
 		}
 		country_leader = {
