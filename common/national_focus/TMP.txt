@@ -22,7 +22,7 @@ focus_tree = {
 shared_focus = {
 	id = TMP_between_two_worlds
 	icon = GFX_goal_generic_construction
-	x = 12
+	x = 8
 	y = 0
 	cost = 5
 	ai_will_do = {
@@ -55,6 +55,113 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_an_old_life"
 		add_manpower = 150
+		add_war_support = 0.05
+		country_event = tempest.2
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_drill_troops
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 2
+	relative_position_id = TMP_an_old_life
+	cost = 5
+	prerequisite = {
+		focus = TMP_an_old_life
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_drill_troops"
+		add_timed_idea = {
+			idea = TMP_army_drilling
+			days = 150
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_tactics_and_strategy
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 1
+	relative_position_id = TMP_drill_troops
+	cost = 5
+	prerequisite = {
+		focus = TMP_drill_troops
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_tactics_and_strategy"
+		country_event = tempest.3
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_open_armories
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_drill_troops
+	cost = 5
+	prerequisite = {
+		focus = TMP_drill_troops
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_open_armories"
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			producer = TMP
+			amount = 100
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_show_strength
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_tactics_and_strategy
+	cost = 5
+	prerequisite = {
+		focus = TMP_tactics_and_strategy
+	}
+	prerequisite = {
+		focus = TMP_open_armories
+	}
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_show_strength"
+		custom_effect_tooltip = TMP_tempest_bop_decisions_unlock_tt
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = TMP_show_friendship
+				}
+			}
+			custom_effect_tooltip = TMP_stormside_first_tt
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = -0.2
+			}
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -75,6 +182,263 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_some_older_friends"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_settle_diaspora
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 2
+	relative_position_id = TMP_some_older_friends
+	cost = 5
+	prerequisite = {
+		focus = TMP_some_older_friends
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_settle_diaspora"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_courage_ponykind
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 1
+	relative_position_id = TMP_settle_diaspora
+	cost = 5
+	prerequisite = {
+		focus = TMP_settle_diaspora
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_courage_ponykind"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_loyalty_to_princess
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_settle_diaspora
+	cost = 5
+	prerequisite = {
+		focus = TMP_settle_diaspora
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_loyalty_to_princess"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_show_friendship
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_courage_ponykind
+	cost = 5
+	prerequisite = {
+		focus = TMP_courage_ponykind
+	}
+	prerequisite = {
+		focus = TMP_loyalty_to_princess
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_show_friendship"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_deals_and_appeals
+	icon = GFX_goal_generic_construction
+	x = 2
+	y = 1
+	relative_position_id = TMP_an_old_life
+	cost = 5
+	prerequisite = {
+		focus = TMP_an_old_life
+	}
+	prerequisite = {
+		focus = TMP_some_older_friends
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_deals_and_appeals"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_rein_in_equestrians
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 1
+	relative_position_id = TMP_deals_and_appeals
+	cost = 5
+	prerequisite = {
+		focus = TMP_deals_and_appeals
+	}
+	mutually_exclusive = {
+		focus = TMP_full_speed_ahead
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_rein_in_equestrians"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_full_speed_ahead
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_deals_and_appeals
+	cost = 5
+	prerequisite = {
+		focus = TMP_deals_and_appeals
+	}
+	mutually_exclusive = {
+		focus = TMP_rein_in_equestrians
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_full_speed_ahead"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_second_in_command
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_rein_in_equestrians
+	cost = 5
+	prerequisite = {
+		focus = TMP_rein_in_equestrians
+		focus = TMP_full_speed_ahead
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_second_in_command"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_uphold_storm_legacy
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 1
+	relative_position_id = TMP_second_in_command
+	cost = 5
+	prerequisite = {
+		focus = TMP_second_in_command
+	}
+	mutually_exclusive = {
+		focus = TMP_beacon_new_ideals
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_uphold_storm_legacy"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_beacon_new_ideals
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_second_in_command
+	cost = 5
+	prerequisite = {
+		focus = TMP_second_in_command
+	}
+	mutually_exclusive = {
+		focus = TMP_uphold_storm_legacy
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_beacon_new_ideals"
+		add_political_power = 75
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_eye_of_storm
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_uphold_storm_legacy
+	cost = 5
+	prerequisite = {
+		focus = TMP_show_strength
+	}
+	prerequisite = {
+		focus = TMP_uphold_storm_legacy
+		focus = TMP_beacon_new_ideals
+	}
+	prerequisite = {
+		focus = TMP_show_friendship
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_eye_of_storm"
 		add_political_power = 75
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
