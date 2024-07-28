@@ -13,3 +13,17 @@ country_event = {
 		name = tempest.1.a
 	}
 }
+
+country_event = {
+	id = tempest.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tempest.2" }
+	title = tempest.2.t
+	desc = tempest.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = tempest.2.a
+	}
+}

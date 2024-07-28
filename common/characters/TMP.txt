@@ -29,6 +29,9 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/TMP/Grubber.tga"
 			}
+			army = {
+				large = "gfx/leaders/TMP/Grubber.tga"
+			}
 		}
 	}
 	TMP_glitter_drops = {
