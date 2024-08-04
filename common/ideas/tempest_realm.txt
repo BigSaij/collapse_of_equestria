@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+		TMP_illegitimate_government = {
+			picture = unknown
+			
+			modifier = {
+				party_popularity_stability_factor = -0.15
+				stability_factor = -0.25
+				war_support_factor = -0.1
+				conscription_factor = -0.2
+			}
+		}
+		TMP_professional_army = {
+			picture = unknown
+			
+			modifier = {
+				custom_modifier_tooltip = coe_army_locked_tt
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.1
+				experience_gain_army_unit_factor = 0.15
+			}
+			on_remove = {
+				country_lock_all_division_template = no
+			}
+		}
+		TMP_equestrian_technological_monopoly = {
+			picture = unknown
+			
+			modifier = {
+				research_speed_factor = -0.1
+				stability_factor = -0.05
+				political_power_gain = -0.1
+			}
+		}
+		TMP_army_drilling = {
+			picture = unknown
+			
+			modifier = {
+				command_power_gain = 0.2
+				experience_gain_army_factor = 0.2
+			}
+		}
+	}
+}

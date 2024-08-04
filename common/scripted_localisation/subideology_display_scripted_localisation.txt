@@ -1,0 +1,173 @@
+# Credit to TNO
+
+defined_text = {
+	name = GetSubideology
+	text = {
+		trigger = {
+			has_government = harmonism
+		}
+		localization_key = "[GetSubideologyHar]"
+	}
+	text = {
+		trigger = {
+			has_government = supremacism
+		}
+		localization_key = "[GetSubideologySuprem]"
+	}
+	text = {
+		trigger = {
+			has_government = pragmatism
+		}
+		localization_key = "[GetSubideologyPrag]"
+	}
+}
+
+defined_text = {
+	name = GetSubideologyHar
+	text = {
+		trigger = {
+			has_country_leader_ideology = alicorn_rule
+		}
+		localization_key = alicorn_rule
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = agrarian_harmonism
+		}
+		localization_key = agrarian_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = stratocratic_harmonism
+		}
+		localization_key = stratocratic_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = aristocratic_harmonism
+		}
+		localization_key = aristocratic_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = modernized_harmonism
+		}
+		localization_key = modernized_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = naturalized_harmonism
+		}
+		localization_key = naturalized_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = market_harmonism
+		}
+		localization_key = market_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = absolutist_harmonism
+		}
+		localization_key = absolutist_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = outlaw_harmonism
+		}
+		localization_key = outlaw_harmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = liberalism
+		}
+		localization_key = liberalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = socialism
+		}
+		localization_key = socialism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = populism
+		}
+		localization_key = populism
+	}
+}
+
+defined_text = {
+	name = GetSubideologySuprem
+	text = {
+		trigger = {
+			has_country_leader_ideology = tyrannical_despotism
+		}
+		localization_key = tyrannical_despotism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = kleptocracy
+		}
+		localization_key = kleptocracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = fascism_ideology
+		}
+		localization_key = fascism_ideology
+	}
+}
+
+defined_text = {
+	name = GetSubideologyPrag
+	text = {
+		trigger = {
+			has_country_leader_ideology = naturalism
+		}
+		localization_key = naturalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = stratocracy
+		}
+		localization_key = stratocracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = traditionalism
+		}
+		localization_key = traditionalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = magocracy
+		}
+		localization_key = magocracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = despotism
+		}
+		localization_key = despotism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = oligarchism
+		}
+		localization_key = oligarchism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = moderatism
+		}
+		localization_key = moderatism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = centrism
+		}
+		localization_key = centrism
+	}
+}

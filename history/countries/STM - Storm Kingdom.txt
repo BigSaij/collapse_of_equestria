@@ -2,9 +2,9 @@
 
 oob = "STM_1010"
 
-set_research_slots = 3
-set_stability = 0.45
-set_war_support = 0.2
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.6
 
 # Starting tech
 set_technology = {
@@ -87,6 +87,17 @@ if = {
 	}
 }
 
+add_ideas = {
+	partial_economic_mobilisation
+	closed_economy
+	limited_conscription
+	STM_divided_storm
+	STM_legacy_of_king
+	STM_technological_stagnation
+}
+	
+
+recruit_character = STM_storm_prince
 recruit_character = STM_storm_king
 recruit_character = STM_ralph
 recruit_character = STM_sam

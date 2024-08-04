@@ -5,10 +5,22 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/TMP/Tempest_Shadow.tga"
 			}
+			army = {
+				large = "gfx/leaders/TMP/Tempest_Shadow.tga"
+			}
 		}
 		country_leader = {
 			ideology = stratocracy
-			id = -1
+			desc = TMP_tempest_shadow_desc
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			desc = TMP_tempest_shadow_general_desc
 		}
 	}
 	TMP_grubber = {
@@ -16,6 +28,41 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/TMP/Grubber.tga"
+			}
+			army = {
+				large = "gfx/leaders/TMP/Grubber.tga"
+			}
+		}
+	}
+	TMP_glitter_drops = {
+		name = TMP_glitter_drops
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TMP/Glitter_Drops.tga"
+			}
+			army = {
+				large = "gfx/leaders/TMP/Glitter_Drops.tga"
+			}
+		}
+		country_leader = {
+			ideology = modernized_harmonism
+			desc = TMP_LEADER_glitter_drops_desc
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+			desc = TMP_glitter_drops_general_desc
+		}
+	}
+	TMP_spring_rain = {
+		name = TMP_spring_rain
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TMP/Spring_Rain.tga"
 			}
 		}
 	}

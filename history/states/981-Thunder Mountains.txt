@@ -1,0 +1,17 @@
+
+state = {
+	id = 981
+	name = "STATE_981"
+	provinces = {
+		2172 2897 3134 3187 3418 4181 5385 10689 10702 
+	}
+	manpower = 392
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+	
+	history = {
+		owner = TMP
+		add_core_of = TMP
+	}
+}
