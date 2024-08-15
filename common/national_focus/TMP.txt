@@ -101,7 +101,15 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_tactics_and_strategy"
-		country_event = tempest.3
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+		every_army_leader = {
+			add_attack = 1
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -162,6 +170,7 @@ shared_focus = {
 				value = -0.2
 			}
 		}
+		country_event = tempest.3
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -182,7 +191,15 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_some_older_friends"
-		add_political_power = 75
+		add_political_power = 50
+		348 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -203,7 +220,13 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_settle_diaspora"
-		add_political_power = 75
+		add_stability = 0.05
+		348 = {
+			add_manpower = 150
+		}
+		981 = {
+			add_manpower = 100
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -224,7 +247,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_courage_ponykind"
-		add_political_power = 75
+		custom_effect_tooltip = TMP_pony_volunteers_tt
+		hidden_effect = {
+			load_oob = "TMP_pony_volunteers"
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -245,7 +271,16 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_loyalty_to_princess"
-		add_political_power = 75
+		add_stability = 0.05
+		348 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_manpower = 100
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -269,7 +304,20 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_show_friendship"
-		add_political_power = 75
+		custom_effect_tooltip = TMP_tempest_bop_decisions_unlock_tt
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = TMP_show_strength
+				}
+			}
+			custom_effect_tooltip = TMP_ponyside_first_tt
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = 0.2
+			}
+		}
+		country_event = tempest.4
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -293,7 +341,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_deals_and_appeals"
-		add_political_power = 75
+		country_event = tempest.5
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -317,7 +365,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_rein_in_equestrians"
-		add_political_power = 75
+		swap_ideas = {
+			remove_idea = TMP_equestrian_technological_monopoly
+			add_idea = TMP_technological_stagnation
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -341,7 +392,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_full_speed_ahead"
-		add_political_power = 75
+		swap_ideas = {
+			remove_idea = TMP_equestrian_technological_monopoly
+			add_idea = TMP_technological_instability
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -363,7 +417,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_second_in_command"
-		add_political_power = 75
+		country_event = tempest.6
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -387,7 +441,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_uphold_storm_legacy"
-		add_political_power = 75
+		add_country_leader_trait = storm_king_heir
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -411,7 +465,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_beacon_new_ideals"
-		add_political_power = 75
+		add_country_leader_trait = harmonic_guardian
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -439,7 +493,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_eye_of_storm"
-		add_political_power = 75
+		custom_effect_tooltip = TMP_stormwar_unlock_tt
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }

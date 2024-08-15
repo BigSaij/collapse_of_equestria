@@ -1,0 +1,30 @@
+﻿
+division_template = {
+	name = "Pony Volunteers"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Pony Volunteer"
+		location = 5665
+		division_template = "Pony Volunteers"
+		start_experience_factor = 0.1
+		start_manpower_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Pony Volunteer"
+		location = 5665
+		division_template = "Pony Volunteers"
+		start_experience_factor = 0.1
+		start_manpower_factor = 1
+		start_equipment_factor = 1
+	}
+}

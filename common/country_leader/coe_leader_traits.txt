@@ -1,0 +1,15 @@
+leader_traits = {
+	storm_king_heir = {
+		random = no
+		army_attack_factor = 0.1
+		war_support_factor = 0.1
+		war_stability_factor = 0.15
+	}
+	
+	harmonic_guardian = {
+		random = no
+		weekly_manpower = 10
+		stability_weekly = 0.005
+		industrial_capacity_factory = 0.1
+	}
+}
