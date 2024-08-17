@@ -12,6 +12,7 @@
  ### CHARACTERS ###
  TMP_tempest_shadow:0 "Tempest Shadow"
  TMP_tempest_shadow_desc:0 "Tempest Shadow was born Fizzlepop Berrytwist, a unicorn in a small village within the western outskirts of Equestria. Talented with magic and holding dreams of attending the School for Gifted Unicorns in Canterlot alongside her friends Glitter Drops and Spring Rain, those dreams were shattered alongside her horn after an encounter with an ursa minor. Feeling betrayed by her friends after they abandoned her and left for Canterlot, Fizzlepop journeyed off out of Equestria southwards, seeking her place in a world that rejected her.\n\nAfter finding an artifact known as the Misfortune Malachite, Fizzlepop was confronted personally by the Storm King and given an offer; a position within his army as a Lieutenant and his new second-in-command, as well as a promise to fix her horn, in return for her total loyalty. She agreed, and shed off her old identity to become Tempest Shadow.\n\nShe served the Storm King faithfully for many moons, earning the respect of the storm creatures under her command and helping him conquer countless places with only one failure; the invasion of Hippogriffia, where Queen Novo was able to successfully escape with the Pearl of Transformation. It was Tempest who led the attack on Canterlot, and her who chased Princess Twilight and her friends across the lands south of Equestria culminating in her capture. But when the time came, she was betrayed by the Storm King, and switched sides to help Twilight destroy the mad tyrant.\n\nTempest temporarily took back her old name as she sought to refind her place in Equestria, rekindling friendships old and new. But once the Twilight Secession began and rumors spread that one on Storm Island was seeking to revive her old master, she knew that only she could stop this threat. Arriving with a few friends in tow and commanding her old storm creature subordinates by force, she is determined to prevent the return of the Storm King by any means necessary."
+ TMP_fizzlepop_berrytwist:0 "Fizzlepop Berrytwist"
  TMP_grubber:0 "Grubber"
  TMP_glitter_drops:0 "Glitter Drops"
  TMP_glitter_drops_general_desc:0 "A long time ago, Glitter Drops was just a young unicorn filly like any other, playing with her peers somewhere far in western Equestria. Together, she dreamed with her friends of attending the School for Gifted Unicorns, and improving her magic to be one of the best mages in the land. But all of that began to crumble away the day Fizzlepop Berrytwist ventured into a cave during a game of ball and lost her horn to the ursa minor.\n\nGlitter Drops was still accepted to the School of Gifted Unicorns with her friend, Spring Rain, but found that the curriculum was too difficult to keep up with. Despite her natural talent as illusion spells, she eventually dropped out and sought work first maintaining the Everfree Forest, and then as part of the Arctic Patrol in the Crystal Empire. There she met a reformed Tempest Shadow, who reconciled with her after being saved from an ursa minor.\n\nGlitter Drops continued her exceptional service patrolling the outskirts of the Crystal Empire up until the Twilight Secession. Once Equestria began falling apart, she received a letter from Fizzlepop Berrytwist, asking for help in defeating a rising threat to all ponykind on Storm Island. Feeling an obligation to her friend, she quickly gave up her post and traveled alongside Fizzlepop, becoming the de facto leader of the Equestrians who now make up an important part of Tempest's operations. And while she is happy to help stop the threat of a new Storm King, Glitter Drops can not help but wonder if Fizzlepop is slipping away again, or dream of one day returning home to Equestria..."
@@ -73,6 +74,19 @@
  TMP_technological_instability:0 "Technological Instability"
  TMP_technological_instability_desc:0 ""
  
+ ### DECISIONS ###
+ TMP_start_storm_war:0 "Begin The Storm War"
+ TMP_tempest_push_decision:0 "Help The Storm Creatures"
+ TMP_fizzlepop_push_decision:0 "Work With The Equestrians"
+ TMP_training_exercises:0 "Storm Training Exercises"
+ TMP_welcome_equestrians:0 "Welcome More Equestrians"
+ TMP_conscript_storm_creatures:0 "Conscript Storm Creatures"
+ TMP_utilize_equestrian_ingenuity:0 "Utilize Equestrian Ingenuity"
+ TMP_traditional_weaponry:0 "Craft Traditional Weaponry"
+ TMP_encourage_volunteers:0 "Encourage Equestrian Volunteers"
+ TMP_strike_lightning_ridge:0 "Strike Lightning Ridge"
+ TMP_technological_breakthrough:0 "Technological Breakthrough"
+ 
  ### EVENTS ###
  tempest.1.t:0 "Gathering Stormclouds"
  tempest.1.d:0 ""Wow, what a day, huh? I mean, basically every day is like this now, and like, I was totally into how you absolutely destroyed that ambush earlier, but I'm starting to run out of sponge cake and you know how I get when I-"\n\n"Grubber."\n\n"Right, sorry."\n\nTempest Shadow closed her eyes and took a deep breath before returning her attention to the map in front of her. She knew the Storm Island well; it had been the closest thing to a home for a good part of her life. Here she had trained relentlessly in the mountains to grow stronger, all to one day regain what was taken from her. And now, after countless moons of subjugation campaigns under the Storm King's banner and subsequent soul-searching in Equestria, she was back.\n\n"Some of the guys are asking me when we're gonna go out and beat that poser," her hedgehog sidekick continued from behind her. "Personally, you know how much I like being here instead of out there, but that Storm Prince loser is getting stronger every day and losing a fight is not a good look for me. Uh, I mean us."\n\n"I am well aware of that, Grubber," Tempest replied. "Tell them to expect a war within the year. Glitter Drops is still working on finding more Equestrians to help."\n\nGrubber waddled up to sit on one of the stools strewn throughout the room. "Yeah, I don't think they'll be too happy about that either. I get that she's your friend and all that, but whenever she tries to give orders to the others it does not go well, let me tell you." The commander didn't offer a response. "Tempest? Hello?"\n\nTempest wasn't listening. Instead, she focused on the shard of stone next to the map. He had been a true tyrant, eccentric but cold and calculating enough to almost destroy Equestria once. She couldn't let it happen again. "Grubber, you're dismissed," she said, her voice hard. "I'll see you at dawn tomorrow."\n\nShe had to do this. She had to win, no matter what it took. Her friends, Princess Twilight, all of Equestria was counting on her even if they didn't know it yet.\n\nHer horn sparked with energy, burning a hole through the map where the old Storm Fortress was. It was time to go."
@@ -91,5 +105,10 @@
  TMP_tempest_bop_decisions_unlock_tt:0 "Completing this focus will unlock §Gadditional decisions§! in the §YBalance of Power§!."
  TMP_stormside_first_tt:0 "\n§CDue to having not completed§! §YA Show Of Friendship:§!"
  TMP_ponyside_first_tt:0 "\n§CDue to having not completed§! §YA Show Of Strength:§!"
- TMP_stormwar_unlock_tt:0 "Completing this focus will unlock a §Cdecision§! to declare §Rwar§! on the §YStorm Kingdom§!!"
+ TMP_stormwar_unlock_tt:0 "Completing this focus will unlock a §Cdecision§! in the §YBalance of Power§! to declare §Rwar§! on the §YStorm Kingdom§!!"
+ 
+ TMP_fizzlepop_namechange_tt:0 "§CTempest Shadow§! will take on a new name."
+ TMP_tempest_namechange_tt:0 "§CFizzlepop Berrytwist§! will take on a new name."
+ 
+ TMP_storm_conscripts_tt:0 "Two divisions of §YStorm Conscripts§! will form."
  

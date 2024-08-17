@@ -1,0 +1,13 @@
+TMP_tempest_bop_category = {
+	allowed = {
+		original_tag = TMP
+	}
+	
+	visible = {
+		NOT = {
+			has_country_flag = TMP_bop_disabled
+		}
+	}
+	
+	priority = 90
+}

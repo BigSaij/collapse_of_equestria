@@ -35,6 +35,19 @@ TMP_tempest_balance = {
 			army_attack_factor = 0.05
 			stability_factor = -0.05
 		}
+		on_activate = {
+			if = {
+				limit = {
+					has_country_flag = TMP_fizzlepop_name_set
+				}
+				clr_country_flag = TMP_fizzlepop_name_set
+				custom_effect_tooltip = TMP_tempest_namechange_tt
+				set_character_name = {
+					character = TMP_tempest_shadow
+					name = TMP_tempest_shadow
+				}
+			}
+		}
 	}
 	range = {
 		id = TMP_bop_neutral
@@ -55,6 +68,21 @@ TMP_tempest_balance = {
 			political_power_gain = 0.1
 			research_speed_factor = 0.05
 			war_support_factor = -0.05
+		}
+		on_activate = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = TMP_fizzlepop_name_set
+					}
+				}
+				set_country_flag = TMP_fizzlepop_name_set
+				custom_effect_tooltip = TMP_fizzlepop_namechange_tt
+				set_character_name = {
+					character = TMP_tempest_shadow
+					name = TMP_fizzlepop_berrytwist
+				}
+			}
 		}
 	}
 	range = {
