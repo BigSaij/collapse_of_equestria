@@ -1,6 +1,6 @@
-﻿capital = 652 #Rock Farm
+﻿capital = 655 #Hayseed Swamp
 
-oob = "ROC_1010"
+oob = "HSS_1010"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,14 +87,13 @@ if = {
 	}
 }
 
-recruit_character = ROC_pinkie_pie
-recruit_character = ROC_maud_pie
-recruit_character = ROC_gummy
+recruit_character = HSS_mage_meadowbrook
+recruit_character = HSS_cattail
 
 set_popularities = {
-	harmonism = 80
+	harmonism = 40
 	supremacism = 10
-	pragmatism = 10
+	pragmatism = 50
 }
 
 set_politics = {

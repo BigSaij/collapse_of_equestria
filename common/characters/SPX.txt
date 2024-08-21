@@ -1,0 +1,15 @@
+characters = {
+	SPX_sphinx = {
+		name = SPX_sphinx
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPX/Sphinx.tga"
+			}
+		}
+		country_leader = {
+			ideology = tyrannical_despotism
+			id = -1
+		}
+	}
+}
+	

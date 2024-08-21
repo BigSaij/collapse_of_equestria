@@ -1,6 +1,6 @@
-﻿capital = 652 #Rock Farm
+﻿capital = 706 #Sphinx's Temple
 
-oob = "ROC_1010"
+oob = "SPX_1010"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,18 +87,16 @@ if = {
 	}
 }
 
-recruit_character = ROC_pinkie_pie
-recruit_character = ROC_maud_pie
-recruit_character = ROC_gummy
+recruit_character = SPX_sphinx
 
 set_popularities = {
-	harmonism = 80
-	supremacism = 10
-	pragmatism = 10
+	harmonism = 10
+	supremacism = 70
+	pragmatism = 20
 }
 
 set_politics = {
-	ruling_party = harmonism
+	ruling_party = supremacism
 	last_election = "1000.1.1"
 	election_frequency = 48
 	elections_allowed = no
