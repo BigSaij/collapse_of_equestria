@@ -1,6 +1,6 @@
-﻿capital = 557 #Baltimare
+﻿capital = 938 #Point Cloudbreak
 
-oob = "BTM_1010"
+oob = "PRT_1010"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,13 +87,12 @@ if = {
 	}
 }
 
-recruit_character = BTM_filthy_rich
-recruit_character = BTM_spoiled_rich
+recruit_character = PRT_captain_rosella
 
 set_popularities = {
-	harmonism = 30
-	pragmatism = 60
+	harmonism = 40
 	supremacism = 10
+	pragmatism = 50
 }
 
 set_politics = {
