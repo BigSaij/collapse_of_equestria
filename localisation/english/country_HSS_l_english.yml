@@ -1,0 +1,10 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ HSS:0 "Hayseed Swamp"
+ HSS_DEF:0 "the Village of Hayseed Swamp"
+ HSS_ADJ:0 "Hayseed"
+ 
+ ### CHARACTERS ###
+ HSS_mage_meadowbrook:0 "Mage Meadowbrook"
+ HSS_cattail:0 "Cattail"
+ 

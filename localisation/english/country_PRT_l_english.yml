@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ PRT:0 "Rosella's Pirates"
+ PRT_DEF:0 "the Pirate State of Rosella"
+ PRT_ADJ:0 "Pirate"
+ 
+ ### CHARACTERS ###
+ PRT_captain_rosella:0 "Captain Rosella"

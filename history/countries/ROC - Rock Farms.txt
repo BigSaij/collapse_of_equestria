@@ -88,6 +88,7 @@ if = {
 }
 
 recruit_character = ROC_pinkie_pie
+recruit_character = ROC_maud_pie
 recruit_character = ROC_gummy
 
 set_popularities = {

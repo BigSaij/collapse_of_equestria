@@ -11,6 +11,14 @@ characters = {
 			id = -1
 		}
 	}
+	ROC_maud_pie = {
+		name = ROC_maud_pie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROC/Maud_Pie.tga"
+			}
+		}
+	}
 	ROC_gummy = { #literal alligator
 		name = ROC_gummy
 		portraits = {

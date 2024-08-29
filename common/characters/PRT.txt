@@ -1,0 +1,15 @@
+characters = {
+	PRT_captain_rosella = {
+		name = PRT_captain_rosella
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRT/Captain_Rosella.tga"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			id = -1
+		}
+	}
+}
+	

@@ -11,5 +11,13 @@ characters = {
 			id = -1
 		}
 	}
+	BTM_spoiled_rich = {
+		name = BTM_spoiled_rich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BTM/Spoiled_Rich.tga"
+			}
+		}
+	}
 }
 	

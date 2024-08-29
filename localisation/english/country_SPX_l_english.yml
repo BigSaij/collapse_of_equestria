@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ SPX:0 "Sphinx Realm"
+ SPX_DEF:0 "the Realm of the Sphinx"
+ SPX_ADJ:0 "Sphinxian"
+ 
+ ### CHARACTERS ###
+ SPX_sphinx:0 "The Sphinx"

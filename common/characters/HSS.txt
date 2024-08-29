@@ -1,0 +1,23 @@
+characters = {
+	HSS_mage_meadowbrook = {
+		name = HSS_mage_meadowbrook
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HSS/Mage_Meadowbrook.tga"
+			}
+		}
+		country_leader = {
+			ideology = naturalized_harmonism
+			id = -1
+		}
+	}
+	HSS_cattail = {
+		name = HSS_cattail
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HSS/Cattail.tga"
+			}
+		}
+	}
+}
+	

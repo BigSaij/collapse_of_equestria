@@ -88,6 +88,7 @@ if = {
 }
 
 recruit_character = BTM_filthy_rich
+recruit_character = BTM_spoiled_rich
 
 set_popularities = {
 	harmonism = 30
