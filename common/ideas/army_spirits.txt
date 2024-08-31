@@ -3,7 +3,6 @@ ideas = {
 		
 		bold_attack_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = bold_attack_spirit_tt
 			}
@@ -17,7 +16,6 @@ ideas = {
 		}
 		tenacious_defense_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = tenacious_defense_spirit_tt
 			}
@@ -31,7 +29,6 @@ ideas = {
 		}
 		meticulous_preparation_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = meticulous_preparation_spirit_tt
 			}
@@ -45,7 +42,6 @@ ideas = {
 		}
 		best_of_the_best_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			modifier = {
 				army_leader_start_level = 2
 				army_intel_to_others = -5.0
@@ -63,7 +59,6 @@ ideas = {
 		}
 		academy_scholarships_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			modifier = {
 				army_leader_start_level = 1
 				army_leader_cost_factor = -0.3 
@@ -81,7 +76,6 @@ ideas = {
 		}
 		political_loyalty_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			modifier = {
 				military_leader_cost_factor = -0.5
 				party_popularity_stability_factor = 0.10
@@ -98,7 +92,6 @@ ideas = {
 		}
 		inventive_leadership_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = inventive_leadership_spirit_tt
 				trait_naval_invader_xp_gain_factor = 0.2
@@ -115,7 +108,6 @@ ideas = {
 		}
 		mobile_warfare_academy_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			visible = { has_tech = mobile_warfare }
 			modifier = {
 				custom_modifier_tooltip = mobile_warfare_academy_spirit_tt
@@ -137,7 +129,6 @@ ideas = {
 		}
 		superior_firepower_academy_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			visible = { has_tech = superior_firepower }
 			modifier = {
 				custom_modifier_tooltip = superior_firepower_academy_spirit_tt
@@ -160,7 +151,6 @@ ideas = {
 		}
 		theatre_training_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			visible = { has_tech = trench_warfare }
 			modifier = {
 				custom_modifier_tooltip = theatre_training_academy_spirit_tt
@@ -182,7 +172,6 @@ ideas = {
 		}
 		mass_assault_academy_spirit = {
 			ledger = army
-			available = { has_military_academy = yes }
 			visible = { has_tech = mass_assault }
 			modifier = {
 				custom_modifier_tooltip = mass_assault_academy_spirit_tt

@@ -111,11 +111,6 @@ technologies = {
 	
 		production_factory_max_efficiency_factor = 0.1
 		
-		#path = {
-		#	leads_to_tech = improved_machine_tools 
-		#	research_cost_coeff = 1
-		#}
-		
 		path = {
 			leads_to_tech = flexible_line
 			research_cost_coeff = 1
@@ -220,10 +215,6 @@ technologies = {
 	
 		equipment_conversion_speed = 0.40
 
-		allow_branch = {
-			has_dlc = "Death or Dishonor"
-		}
-
 		path = {
 			leads_to_tech = advanced_equipment_conversion
 			research_cost_coeff = 1
@@ -304,26 +295,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 25
-
-			modifier = {
-				factor = 2
-				NOT = { tag = GER }
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -531,27 +502,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 25
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = JAP
-			}
-
 			modifier = {
 				factor = 0
 				has_tech = concentrated_industry
@@ -860,10 +810,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
-				factor = 0.5
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -925,10 +871,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
-				factor = 0.5
-			}	
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -981,10 +923,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
-				factor = 0.5
-			}	
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -1026,11 +964,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
-			modifier = {
-				tag = USA
-				factor = 0.5
-			}	
+			factor = 5	
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1070,10 +1004,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				tag = USA
-				factor = 0.5
-			}
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1124,28 +1054,10 @@ technologies = {
 		}
 
 		on_research_complete = {
-			# FIN effect from focus Tire Factory at Nokia
-			if = {
-				limit = {
-					tag = FIN
-					has_completed_focus = FIN_tire_factory_at_nokia
-					controls_state = 927
-				}
-				FIN_nokia_tires_after_tech_effect = yes
-			}
 		}
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-				has_war = yes
-				factor = 5
-			}
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1191,15 +1103,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-				has_war = yes
-				factor = 25
-			}
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1247,15 +1150,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-				has_war = yes
-				factor = 25
-			}
-			modifier = {
 				factor = 0.5
 				oil > 10
 			}
@@ -1266,12 +1160,7 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 30
-			}	
-			modifier = {
-				original_tag = GER			
-				has_war = yes
-				factor = 3
-			}		
+			}
 		}
 		
 		ai_research_weights = {
@@ -1306,15 +1195,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-				has_war = yes
-				factor = 25
-			}
 			modifier = {
 				factor = 0.5
 				rubber > 10
@@ -1410,14 +1290,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-				}
-				has_war = yes
-				factor = 15
-			}
-			modifier = {
 				factor = 0.5
 				rubber > 10
 			}
@@ -1470,14 +1342,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-				}
-				has_war = yes
-				factor = 15
-			}
-			modifier = {
 				factor = 0.5
 				rubber > 10
 			}
@@ -1529,14 +1393,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-				}
-				has_war = yes
-				factor = 15
-			}
 			modifier = {
 				factor = 0.5
 				rubber > 10

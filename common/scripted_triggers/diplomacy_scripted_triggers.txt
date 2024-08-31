@@ -697,7 +697,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 }
 
 game_weight_can_add_fascist = {
-	GER = {
+	STM = {
 		AND = {
 			OR = {
 				check_variable = { fascist_game_weight < democratic_game_weight }
@@ -714,7 +714,7 @@ game_weight_can_add_fascist = {
 }
 
 game_weight_can_add_democratic = {
-	GER = {
+	STM = {
 		AND = {
 			OR = {
 				check_variable = { democratic_game_weight < fascist_game_weight }
@@ -731,7 +731,7 @@ game_weight_can_add_democratic = {
 }
 
 game_weight_can_add_unaligned = {
-	GER = {
+	STM = {
 		AND = {
 			OR = {
 				check_variable = { unaligned_game_weight < fascist_game_weight }
