@@ -15,7 +15,7 @@ characters = {
 		name = HPG_princess_skystar
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Princess_Skystar.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = HPG_salina_blue
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Salina_Blue.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = HPG_sky_beak
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Sky_Beak.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -39,7 +39,7 @@ characters = {
 		name = HPG_ocean_flow
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Ocean_Flow.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -47,7 +47,7 @@ characters = {
 		name = HPG_haven_bay
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Haven_Bay.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -55,7 +55,7 @@ characters = {
 		name = HPG_terramar
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Terramar.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -63,7 +63,7 @@ characters = {
 		name = HPG_stratus_skyranger
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Stratus_Skyranger.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -71,7 +71,7 @@ characters = {
 		name = HPG_silverstream
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Silverstream.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -79,7 +79,7 @@ characters = {
 		name = HPG_golden_fin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Golden_Fin.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -87,7 +87,7 @@ characters = {
 		name = HPG_crystal_tide
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Crystal_Tide.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -95,7 +95,7 @@ characters = {
 		name = HPG_coral_rose
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Coral_Rose.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -103,7 +103,7 @@ characters = {
 		name = HPG_cerulean
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Cerulean.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -111,7 +111,7 @@ characters = {
 		name = HPG_sir_aston
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HPG/Sir_Aston.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

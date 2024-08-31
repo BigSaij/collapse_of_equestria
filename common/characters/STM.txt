@@ -15,7 +15,7 @@ characters = {
 		name = STM_storm_king
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/STM/Storm_King.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = STM_ralph
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/STM/Ralph.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = STM_sam
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/STM/Sam.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -39,7 +39,7 @@ characters = {
 		name = STM_general_klavis
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/STM/General_Klavis.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

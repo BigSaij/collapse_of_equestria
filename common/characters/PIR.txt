@@ -15,7 +15,7 @@ characters = {
 		name = PIR_squabble
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Squabble.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = PIR_pinwheel
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Pinwheel.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = PIR_mullet
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Mullet.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -39,7 +39,7 @@ characters = {
 		name = PIR_marco
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Marco.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -47,7 +47,7 @@ characters = {
 		name = PIR_lix_spittle
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Lix_Spittle.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -55,7 +55,7 @@ characters = {
 		name = PIR_brutus
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Brutus.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -63,7 +63,7 @@ characters = {
 		name = PIR_boyle
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Boyle.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -71,7 +71,7 @@ characters = {
 		name = PIR_ace
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PIR/Ace.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

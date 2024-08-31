@@ -15,7 +15,7 @@ characters = {
 		name = KGT_vera
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KGT/Vera.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = KGT_pushkin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KGT/Pushkin.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = KGT_mori
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KGT/Mori.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -39,7 +39,7 @@ characters = {
 		name = KGT_louise
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KGT/Louise.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -47,7 +47,7 @@ characters = {
 		name = KGT_chummer
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KGT/Chummer.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

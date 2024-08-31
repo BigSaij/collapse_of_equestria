@@ -15,7 +15,7 @@ characters = {
 		name = THK_prince_bramble
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/THK/Prince_Bramble.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = THK_blackthorn
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/THK/Blackthorn.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

@@ -3,7 +3,7 @@ characters = {
 		name = HSC_silver_shine
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BTM/Silver_Shine.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 		country_leader = {

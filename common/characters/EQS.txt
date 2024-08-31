@@ -15,7 +15,7 @@ characters = {
 		name = EQS_owlowiscious
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/EQS/Owlowiscious.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

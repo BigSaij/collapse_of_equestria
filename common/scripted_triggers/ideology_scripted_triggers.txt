@@ -1,0 +1,32 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = pragmatism
+			ROOT = {
+				OR = {
+					has_government = supremacism
+					has_government = harmonism
+				}
+			}
+		}
+		AND = {
+			has_government = harmonism
+			ROOT = {
+				OR = {
+					has_government = pragmatism
+					has_government = supremacism
+				}
+			}
+		}
+		AND = {
+			has_government = supremacism
+			ROOT = {
+				OR = {
+					has_government = harmonism
+					has_government = pragmatism
+				}
+			}
+		}
+	}
+}

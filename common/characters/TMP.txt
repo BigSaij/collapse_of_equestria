@@ -62,7 +62,7 @@ characters = {
 		name = TMP_spring_rain
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/TMP/Spring_Rain.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

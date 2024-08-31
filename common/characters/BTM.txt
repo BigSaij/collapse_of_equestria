@@ -15,7 +15,7 @@ characters = {
 		name = BTM_spoiled_rich
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BTM/Spoiled_Rich.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

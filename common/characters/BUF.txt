@@ -15,7 +15,7 @@ characters = {
 		name = BUF_little_strongheart
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BUF/Little_Strongheart.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = BUF_buffy
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BUF/Buffy.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = BUF_big_angie
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BUF/Big_Angie.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

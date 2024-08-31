@@ -15,7 +15,7 @@ characters = {
 		name = CLD_tank
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CLD/Tank.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

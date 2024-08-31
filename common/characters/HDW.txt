@@ -15,7 +15,7 @@ characters = {
 		name = HDW_terabyte_sparkle
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HDW/Terabyte_Sparkle.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = HDW_ramity
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HDW/RAMity.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = HDW_robo_dash
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HDW/Robo_Dash.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -39,7 +39,7 @@ characters = {
 		name = HDW_cybershy
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HDW/Cybershy.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -47,7 +47,7 @@ characters = {
 		name = HDW_pinkie_pi
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HDW/Pinkie_Pi.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -55,7 +55,7 @@ characters = {
 		name = HDW_autojack
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HDW/Autojack.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

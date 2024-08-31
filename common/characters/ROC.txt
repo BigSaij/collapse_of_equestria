@@ -15,7 +15,7 @@ characters = {
 		name = ROC_maud_pie
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ROC/Maud_Pie.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = ROC_gummy
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ROC/Gummy.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

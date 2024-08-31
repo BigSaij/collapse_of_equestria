@@ -15,7 +15,7 @@ characters = {
 		name = YAK_yona
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Yona.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = YAK_yojan
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Yojan.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = YAK_yigrid
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Yigrid.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -39,7 +39,7 @@ characters = {
 		name = YAK_yakmina
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Yakmina.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -47,7 +47,7 @@ characters = {
 		name = YAK_yakatar
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Yakatar.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -55,7 +55,7 @@ characters = {
 		name = YAK_tormand
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Tormand.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -63,7 +63,7 @@ characters = {
 		name = YAK_leroy
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Leroy.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -71,7 +71,7 @@ characters = {
 		name = YAK_ingville
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Ingville.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -79,7 +79,7 @@ characters = {
 		name = YAK_horwitz
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Horwitz.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -87,7 +87,7 @@ characters = {
 		name = YAK_grimhorn
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/YAK/Grimhorn.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

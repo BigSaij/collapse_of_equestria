@@ -15,7 +15,7 @@ characters = {
 		name = MAN_smokey
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Smokey.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -23,7 +23,7 @@ characters = {
 		name = MAN_opalescence
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Opalescence.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 		name = MAN_blue_bobbin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Blue_Bobbin.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
@@ -39,7 +39,7 @@ characters = {
 		name = MAN_coco_pommel
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Coco_Pommel.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}

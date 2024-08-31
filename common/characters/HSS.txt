@@ -15,7 +15,7 @@ characters = {
 		name = HSS_cattail
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HSS/Cattail.tga"
+				large = "gfx/leaders/Placeholder_Leader.tga"
 			}
 		}
 	}
