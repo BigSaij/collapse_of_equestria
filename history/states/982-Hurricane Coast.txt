@@ -8,10 +8,17 @@ state = {
 	manpower = 923
 	buildings_max_level_factor = 1.000
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 1.0
+	resources = {
+		steel = 4
+	}
 	
 	history = {
 		owner = STM
 		add_core_of = STM
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
 	}
 }

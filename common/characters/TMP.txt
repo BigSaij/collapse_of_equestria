@@ -14,7 +14,7 @@ characters = {
 			desc = TMP_tempest_shadow_desc
 		}
 		field_marshal = {
-			traits = { }
+			traits = { trait_reckless offensive_doctrine }
 			skill = 4
 			attack_skill = 5
 			defense_skill = 3
@@ -49,7 +49,7 @@ characters = {
 			desc = TMP_LEADER_glitter_drops_desc
 		}
 		corps_commander = {
-			traits = { }
+			traits = { trickster winter_specialist ranger }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 4

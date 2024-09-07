@@ -1,6 +1,6 @@
 
 state = {
-	id=  348
+	id = 348
 	name = "STATE_348"
 	provinces = {
 		994 1910 5393 5665 
@@ -8,11 +8,19 @@ state = {
 	manpower = 1242
 	buildings_max_level_factor = 1.000
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 2.0
 	
 	history = {
 		owner = TMP
 		add_core_of = TMP
 		victory_points = { 5665 10 }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			5665 = {
+				naval_base = 4
+			}
+		}
 	}
 }

@@ -10,10 +10,7 @@ fascism_on_the_rise = {
 
 		visible = {
 			NOT = { has_country_flag = preparation_for_fascist_civil_war }
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
 		}
@@ -39,10 +36,7 @@ fascism_on_the_rise = {
 				has_country_flag = preparation_for_fascist_civil_war
 				has_country_flag = open_up_political_discourse_fascism
 			}
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
 		}
@@ -76,10 +70,7 @@ fascism_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_fascist_civil_war
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
 		}
@@ -135,10 +126,7 @@ fascism_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_fascist_civil_war
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			any_army_leader = {
 				is_field_marshal = no
@@ -170,10 +158,7 @@ fascism_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_fascist_civil_war
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
@@ -211,10 +196,7 @@ fascism_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_fascist_civil_war
 			has_country_flag = military_support_for_fascist_civil_war
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
 		}
@@ -248,10 +230,7 @@ fascism_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_fascist_civil_war
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
 		}
@@ -282,10 +261,7 @@ fascism_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_fascist_civil_war
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
 			check_variable = { num_owned_states = 1 }
@@ -317,10 +293,7 @@ fascism_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_fascist_civil_war
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
 			check_variable = { num_owned_states > 1 }
@@ -425,10 +398,7 @@ fascism_on_the_rise = {
 		}
 
 		visible = {
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 			NOT = { has_country_flag = open_up_political_discourse_fascism }
 			NOT = { has_government = supremacism }
 			check_has_focus_tree_to_switch_to_fascism = yes
@@ -459,10 +429,7 @@ fascism_on_the_rise = {
 			supremacism < 0.8
 			harmonism < 0.8
 			pragmatism < 0.8
-			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-			}
+			has_idea_with_trait = fascist_demagogue
 		}
 
 		visible = {
@@ -556,10 +523,7 @@ democratic_on_the_rise = {
 
 		visible = {
 			NOT = { has_country_flag = preparation_for_democratic_civil_war }
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
@@ -584,10 +548,7 @@ democratic_on_the_rise = {
 				has_country_flag = preparation_for_democratic_civil_war
 				has_country_flag = open_up_political_discourse_democratic
 			}
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
@@ -621,10 +582,7 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
@@ -680,10 +638,7 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			any_army_leader = {
 				is_field_marshal = no
@@ -716,10 +671,7 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
@@ -757,10 +709,7 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_country_flag = military_support_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
@@ -794,10 +743,7 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
@@ -828,10 +774,7 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 			check_variable = { num_owned_states = 1 }
@@ -863,10 +806,7 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 			check_variable = { num_owned_states > 1 }
@@ -970,10 +910,7 @@ democratic_on_the_rise = {
 		}
 
 		visible = {
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 			NOT = { has_government = harmonism }
 			check_has_focus_tree_to_switch_to_democratic = yes
 		}
@@ -1003,10 +940,7 @@ democratic_on_the_rise = {
 			supremacism < 0.8
 			harmonism < 0.8
 			pragmatism < 0.8
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
+			has_idea_with_trait = democratic_reformer
 		}
 
 		visible = {
@@ -1090,7 +1024,7 @@ democratic_on_the_rise = {
 }
 
 political_actions = {
-    anti_fascist_raids = {
+    anti_supremacist_raids = {
 
     	icon = generic_civil_support
 
@@ -1122,8 +1056,7 @@ political_actions = {
 		}
     }
 
-    anti_democratic_raids = {
-
+    anti_harmonist_raids = {
     	icon = generic_civil_support
 
     	visible = {
@@ -1153,8 +1086,39 @@ political_actions = {
 			factor = 0
 		}
     }
+	
+	anti_pragmatist_raids = {
+    	icon = generic_civil_support
+
+    	visible = {
+			NOT = { has_government = pragmatism }
+		}
+
+		available = {
+            pragmatism > 0.1
+        }
+	
+		modifier = {
+			pragmatism_drift = -0.05
+			stability_weekly = 0.007
+		}
+	
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+		
+		remove_effect = {
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+    }
     
-	ban_fascist_party = {
+	ban_supremacism = {
 		icon = generic_civil_support
 
 		available = {
@@ -1197,10 +1161,10 @@ political_actions = {
 					var = ban_ideology_var
 					value = 0.66
 				}
-				set_country_flag = banned_fascism_flag
+				set_country_flag = banned_supremacism_flag
 			}
 			remove_fascist_spirits_effect = yes
-			custom_effect_tooltip = ban_fascist_party_tt
+			custom_effect_tooltip = ban_supremacism_tt
 			add_stability = ban_ideology_var
 		}
 
@@ -1209,8 +1173,7 @@ political_actions = {
 		}
 	}
 
-	ban_democratic_party = {
-
+	ban_harmonism = {
 		icon = generic_civil_support
 
 		available = {
@@ -1253,10 +1216,10 @@ political_actions = {
 					var = ban_ideology_var
 					value = 0.66
 				}
-				set_country_flag = banned_democratic_flag				
+				set_country_flag = banned_harmonism_flag				
 			}
 			remove_democratic_spirits_effect = yes 
-			custom_effect_tooltip = ban_democratic_party_tt
+			custom_effect_tooltip = ban_harmonism_tt
 			add_stability = ban_ideology_var
 		}
 
@@ -1265,7 +1228,61 @@ political_actions = {
 		}
 	}
 	
-	institute_press_censorship_fascist_state = {
+	ban_pragmatism = {
+		icon = generic_civil_support
+
+		available = {
+			pragmatism < 0.2
+		}
+
+		visible = {
+			NOT = { has_government = pragmatism }
+			pragmatism > 0
+		}
+
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = pragmatism
+			}
+		}
+	
+		modifier = {
+			pragmatism_drift = -0.05
+		}
+	
+		days_remove = -1
+		cost = 100
+		
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@pragmatism
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = pragmatism
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_pragmatism_flag				
+			}
+			custom_effect_tooltip = ban_pragmatism_tt
+			add_stability = ban_ideology_var
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	press_censorship_supremacism = {
 		icon = generic_political_discourse
 		available = {
 		}
@@ -1288,8 +1305,7 @@ political_actions = {
 		}
 	}
 	
-	institute_press_censorship_democratic_state = {
-
+	press_censorship_harmonism = {
 		icon = generic_political_discourse
 
 		available = {
@@ -1313,7 +1329,7 @@ political_actions = {
 		}
 	}
 	
-	institute_press_censorship_neutrality_state = {
+	press_censorship_pragmatism = {
 		icon = generic_political_discourse
 
 		available = {

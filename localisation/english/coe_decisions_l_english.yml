@@ -1,0 +1,15 @@
+﻿l_english:
+ 
+ anti_supremacist_raids:0 "Anti-Supremacist Raids"
+ anti_harmonist_raids:0 "Anti-Harmonist Raids"
+ anti_pragmatist_raids:0 "Anti-Pragmatist Raids"
+ ban_supremacism:0 "Ban Supremacism"
+ ban_supremacism_tt:0 "Change in popularity of Supremacism: §G-§![?.Root.party_popularity@supremacism|%0G].\n"
+ ban_harmonism:0 "Ban Harmonism"
+ ban_harmonism_tt:0 "Change in popularity of Harmonism: §G-§![?.Root.party_popularity@harmonism|%0G].\n"
+ ban_pragmatism:0 "Ban Pragmatism"
+ ban_pragmatism_tt:0 "Change in popularity of Pragmatism: §G-§![?.Root.party_popularity@pragmatism|%0G].\n"
+ press_censorship_supremacism:0 "Institute Press Censorship"
+ press_censorship_harmonism:0 "Institute Press Censorship"
+ press_censorship_harmonism_desc:0 "These are dangerous times and we can't allow dissenting voices to tear our country apart. Restricting the freedom of the press is necessary to ensure that the truth is heard loud and clear."
+ press_censorship_pragmatism:0 "Institute Press Censorship"

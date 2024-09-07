@@ -4,12 +4,8 @@ bookmarks = {
 		desc = "EQUESTRIA_FRACTURED_DESC"
 		date = 1010.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "STM"
+		default_country = "TMP"
 		default = yes
-		
-		"---"={
-			history = "OTHER_EQUESTRIA_FRACTURED_DESC"
-		}
 		
 		"BTM"={
 			history = "BTM_EQUESTRIA_FRACTURED_DESC"
@@ -19,13 +15,18 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"STM"={
-			history = "STM_EQUESTRIA_FRACTURED_DESC"
-			ideology = supremacism
+		"CTE"={
+			history = "CTE_EQUESTRIA_FRACTURED_DESC"
+			ideology = harmonism
 			ideas = {
-				STM_divided_storm
-				STM_legacy_of_king
-				STM_technological_stagnation
+			}
+			focuses = {
+			}
+		}
+		"EQS"={
+			history = "EQS_EQUESTRIA_FRACTURED_DESC"
+			ideology = harmonism
+			ideas = {
 			}
 			focuses = {
 			}
@@ -39,7 +40,40 @@ bookmarks = {
 				TMP_equestrian_technological_monopoly
 			}
 			focuses = {
+				TMP_between_two_worlds
+				TMP_show_strength
+				TMP_eye_of_storm
 			}
+		}
+		"STM"={
+			history = "STM_EQUESTRIA_FRACTURED_DESC"
+			ideology = supremacism
+			ideas = {
+				STM_divided_storm
+				STM_legacy_of_king
+				STM_technological_stagnation
+			}
+			focuses = {
+			}
+		}
+		"KGT"={
+			history = "KGT_EQUESTRIA_FRACTURED_DESC"
+			ideology = harmonism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"PIR"={
+			history = "PIR_EQUESTRIA_FRACTURED_DESC"
+			ideology = harmonism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"---"={
+			history = "OTHER_EQUESTRIA_FRACTURED_DESC"
 		}
 	}
 }
