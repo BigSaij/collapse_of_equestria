@@ -1,0 +1,29 @@
+add_namespace = cookhouse
+
+country_event = {
+	id = cookhouse.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event cookhouse.1" }
+	title = cookhouse.1.t
+	desc = cookhouse.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = cookhouse.1.a
+	}
+}
+
+country_event = {
+	id = cookhouse.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event cookhouse.2" }
+	title = cookhouse.2.t
+	desc = cookhouse.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = cookhouse.2.a
+	}
+}

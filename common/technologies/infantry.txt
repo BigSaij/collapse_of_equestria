@@ -35,7 +35,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
@@ -62,7 +62,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
@@ -114,7 +114,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1012
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1938 }
@@ -156,7 +156,7 @@ technologies = {
 		}		
 
 		research_cost = 2
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1939 }
@@ -211,7 +211,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1014
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -254,7 +254,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1942 }
@@ -292,7 +292,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1017
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1943 }
@@ -334,7 +334,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1942 }
@@ -390,7 +390,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1018
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -432,7 +432,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1936 }
@@ -473,7 +473,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1939 }
@@ -497,7 +497,7 @@ technologies = {
 		
 
 		research_cost = 2.0
-		start_year = 1943
+		start_year = 1017
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1943 }
@@ -537,7 +537,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1936 }
@@ -565,7 +565,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1939 }
@@ -588,7 +588,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1943
+		start_year = 1017
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1943 }
@@ -628,7 +628,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1936 }
@@ -657,7 +657,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1939 }
@@ -680,7 +680,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1943
+		start_year = 1017
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1943 }
@@ -724,7 +724,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1938
+		start_year = 1012
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1938 }
@@ -761,7 +761,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1014
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1940 }
@@ -793,7 +793,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1014
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1940 }
@@ -828,7 +828,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1942 }
@@ -862,7 +862,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = @1942 }
@@ -890,7 +890,7 @@ technologies = {
 		special_forces_no_supply_grace = 24
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1018
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1944 }
@@ -1044,7 +1044,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1017
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1943 }
@@ -1084,7 +1084,7 @@ technologies = {
 		land_night_attack = 0.15	
 
 		research_cost = 2
-		start_year = 1946
+		start_year = 1020
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1946 }
@@ -1159,7 +1159,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1918 }
@@ -1237,7 +1237,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1012
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1938 }
@@ -1320,7 +1320,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1014
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -1399,7 +1399,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1942 }
@@ -1466,7 +1466,7 @@ technologies = {
 		} 
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
@@ -1538,7 +1538,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
@@ -1595,7 +1595,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		
 		ai_will_do = {
 			factor = 1
@@ -1623,7 +1623,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1914
+		start_year = 1010
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1924 }
@@ -1671,7 +1671,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1014
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1940 }
@@ -1714,7 +1714,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1942 }
@@ -1761,7 +1761,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1942
+		start_year = 1016
 		sub_tech_index = 1
 		
 		categories = {
@@ -1801,7 +1801,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1942
+		start_year = 1016
 		sub_tech_index = 1
 		
 		categories = {
@@ -1892,7 +1892,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1014
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -1937,7 +1937,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 1015
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1941 }
@@ -1965,7 +1965,7 @@ technologies = {
 		
 
 		research_cost = 2
-		start_year = 1943
+		start_year = 1017
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1943 }
@@ -1996,7 +1996,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1942 }
@@ -2026,7 +2026,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1944
+		start_year = 1018
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -2292,5 +2292,4 @@ technologies = {
 			}
 		}
 	}
-	
 }

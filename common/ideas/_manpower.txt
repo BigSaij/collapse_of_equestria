@@ -11,7 +11,7 @@ ideas = {
 			level = 7
 
 			available = {
-				has_idea = COE_demilitarized_nation
+				always = yes
 			}
 
 			modifier = {

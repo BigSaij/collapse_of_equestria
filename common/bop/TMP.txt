@@ -6,7 +6,7 @@ TMP_tempest_balance = {
 	
 	side = {
 		id = TMP_tempest_side
-		icon = GFX_idea_generic_degauss_ship_hulls
+		icon = GFX_idea_eng_special_air_service
 	}
 	side = {
 		id = TMP_fizzlepop_side

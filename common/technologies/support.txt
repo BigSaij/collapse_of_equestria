@@ -51,7 +51,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1918
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1918 }
@@ -94,7 +94,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1936 }
@@ -164,7 +164,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1939 }
@@ -240,7 +240,7 @@ technologies = {
 		}		
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1942 }
@@ -310,7 +310,7 @@ technologies = {
 			}
 		}
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1019
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1945 }
@@ -361,7 +361,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1936 }
@@ -413,7 +413,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1939 }
@@ -455,7 +455,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1942 }
@@ -492,7 +492,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1019
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1945 }
@@ -535,7 +535,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1936 }
@@ -569,7 +569,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1939 }
@@ -601,7 +601,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1942 }
@@ -628,7 +628,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1019
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1945 }
@@ -675,7 +675,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1936 }
@@ -723,7 +723,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1939 }
@@ -772,7 +772,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1942 }
@@ -810,7 +810,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1019
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1945 }
@@ -857,7 +857,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1936 }
@@ -903,7 +903,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1939 }
@@ -948,7 +948,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1942 }
@@ -988,7 +988,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1019
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1945 }
@@ -1055,7 +1055,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1936 }
@@ -1106,7 +1106,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1939 }
@@ -1156,7 +1156,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1942 }
@@ -1196,7 +1196,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1019
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1945 }
@@ -1247,7 +1247,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1936 }
@@ -1283,7 +1283,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1939 }
@@ -1326,7 +1326,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1942 }
@@ -1364,7 +1364,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1019
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1945 }
@@ -1402,7 +1402,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1910
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1918 }
@@ -1451,7 +1451,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 3 }
@@ -1478,7 +1478,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1939 }
@@ -1531,7 +1531,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 3 }
@@ -1564,5 +1564,4 @@ technologies = {
 			}
 		}
 	}
-
 }
