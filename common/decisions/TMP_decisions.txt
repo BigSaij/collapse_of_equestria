@@ -187,7 +187,7 @@ TMP_tempest_bop_category = {
 		}
 		complete_effect = {
 			STM = {
-				country_event = tempest.7
+				country_event = tempest.8
 			}
 		}
 	}

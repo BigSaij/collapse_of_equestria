@@ -200,6 +200,7 @@ shared_focus = {
 				instant_build = yes
 			}
 		}
+		country_event = tempest.4
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -317,7 +318,7 @@ shared_focus = {
 				value = 0.2
 			}
 		}
-		country_event = tempest.4
+		country_event = tempest.5
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -341,7 +342,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_deals_and_appeals"
-		country_event = tempest.5
+		country_event = tempest.6
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -417,7 +418,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_second_in_command"
-		country_event = tempest.6
+		country_event = tempest.7
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
