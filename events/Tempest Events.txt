@@ -81,9 +81,104 @@ country_event = {
 	
 	option = {
 		name = tempest.6.a
+		custom_effect_tooltip = TMP_fizzlepop_decisions_upgrade_tt
+		set_country_flag = TMP_empowered_fizzy_decisions
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value < 1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = 0.2
+			}
+		}
+		else = {
+			add_stability = 0.1
+		}
 	}
 	option = {
 		name = tempest.6.b
+		981 = {
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = fighter_equipment_0
+			producer = TMP
+			amount = 50
+		}
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value > -1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = -0.2
+			}
+		}
+		else = {
+			add_war_support = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = tempest.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tempest.7" }
+	title = tempest.7.t
+	desc = tempest.7.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = tempest.7.a
+		custom_effect_tooltip = TMP_equestrian_wartime_bonus_tt
+		set_country_flag = TMP_glitter_empowered
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value < 1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = 0.2
+			}
+		}
+		else = {
+			add_stability = 0.1
+		}
+	}
+	option = {
+		name = tempest.7.b
+		custom_effect_tooltip = TMP_storm_wartime_bonus_tt
+		set_country_flag = TMP_grubber_empowered
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value > -1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = -0.2
+			}
+		}
+		else = {
+			add_war_support = 0.1
+		}
 	}
 }
 

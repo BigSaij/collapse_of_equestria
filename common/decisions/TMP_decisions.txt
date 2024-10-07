@@ -16,6 +16,8 @@ TMP_tempest_bop_category = {
 				target = STM
 				type = annex_everything
 			}
+			custom_effect_tooltip = TMP_bop_decisions_locked_tt
+			set_country_flag = TMP_storm_war_begun
 		}
 		cancel_trigger = {
 			has_war_with = STM
@@ -27,6 +29,12 @@ TMP_tempest_bop_category = {
 			factor = 50
 		}
 		days_re_enable = 100
+		available = {
+			power_balance_value = {
+				id = TMP_tempest_balance
+				value > -1
+			}
+		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision TMP_tempest_push_decision"
 			add_power_balance_value = {
@@ -41,6 +49,12 @@ TMP_tempest_bop_category = {
 			factor = 50
 		}
 		days_re_enable = 100
+		available = {
+			power_balance_value = {
+				id = TMP_tempest_balance
+				value < 1
+			}
+		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision TMP_fizzlepop_push_decision"
 			add_power_balance_value = {
@@ -60,9 +74,17 @@ TMP_tempest_bop_category = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision TMP_training_exercises"
-			add_power_balance_value = {
-				id = TMP_tempest_balance
-				value = -0.2
+			if = {
+				limit = {
+					power_balance_value = {
+						id = TMP_tempest_balance
+						value > -1
+					}
+				}
+				add_power_balance_value = {
+					id = TMP_tempest_balance
+					value = -0.2
+				}
 			}
 			army_experience = 20
 		}
@@ -78,15 +100,36 @@ TMP_tempest_bop_category = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision TMP_welcome_equestrians"
-			add_power_balance_value = {
-				id = TMP_tempest_balance
-				value = 0.2
+			if = {
+				limit = {
+					power_balance_value = {
+						id = TMP_tempest_balance
+						value < 1
+					}
+				}
+				add_power_balance_value = {
+					id = TMP_tempest_balance
+					value = 0.2
+				}
 			}
-			348 = {
-				add_manpower = 100
+			if = {
+				limit = {
+					has_country_flag = TMP_empowered_fizzy_decisions
+				}
+				348 = {
+					add_manpower = 150
+				}
+				981 = {
+					add_manpower = 75
+				}
 			}
-			981 = {
-				add_manpower = 50
+			else = {
+				348 = {
+					add_manpower = 100
+				}
+				981 = {
+					add_manpower = 50
+				}
 			}
 		}
 	}
@@ -169,7 +212,15 @@ TMP_tempest_bop_category = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision TMP_encourage_volunteers"
-			add_manpower = 50
+			if = {
+				limit = {
+					has_country_flag = TMP_empowered_fizzy_decisions
+				}
+				add_manpower = 75
+			}
+			else = {
+				add_manpower = 50
+			}
 		}
 	}
 	TMP_strike_lightning_ridge = {

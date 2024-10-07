@@ -165,9 +165,20 @@ shared_focus = {
 				}
 			}
 			custom_effect_tooltip = TMP_stormside_first_tt
-			add_power_balance_value = {
-				id = TMP_tempest_balance
-				value = -0.2
+			if = {
+				limit = {
+					power_balance_value = {
+						id = TMP_tempest_balance
+						value > -1
+					}
+				}
+				add_power_balance_value = {
+					id = TMP_tempest_balance
+					value = -0.2
+				}
+			}
+			else = {
+				add_war_support = 0.1
 			}
 		}
 		country_event = tempest.3
@@ -313,9 +324,20 @@ shared_focus = {
 				}
 			}
 			custom_effect_tooltip = TMP_ponyside_first_tt
-			add_power_balance_value = {
-				id = TMP_tempest_balance
-				value = 0.2
+			if = {
+				limit = {
+					power_balance_value = {
+						id = TMP_tempest_balance
+						value < 1
+					}
+				}
+				add_power_balance_value = {
+					id = TMP_tempest_balance
+					value = 0.2
+				}
+			}
+			else = {
+				add_stability = 0.1
 			}
 		}
 		country_event = tempest.5
@@ -370,6 +392,21 @@ shared_focus = {
 			remove_idea = TMP_equestrian_technological_monopoly
 			add_idea = TMP_technological_stagnation
 		}
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value > -1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = -0.2
+			}
+		}
+		else = {
+			add_war_support = 0.1
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -396,6 +433,21 @@ shared_focus = {
 		swap_ideas = {
 			remove_idea = TMP_equestrian_technological_monopoly
 			add_idea = TMP_technological_instability
+		}
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value < 1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = 0.2
+			}
+		}
+		else = {
+			add_stability = 0.1
 		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
@@ -443,6 +495,21 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_uphold_storm_legacy"
 		add_country_leader_trait = storm_king_heir
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value > -1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = -0.2
+			}
+		}
+		else = {
+			add_war_support = 0.1
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -467,6 +534,21 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_beacon_new_ideals"
 		add_country_leader_trait = harmonic_guardian
+		if = {
+			limit = {
+				power_balance_value = {
+					id = TMP_tempest_balance
+					value < 1
+				}
+			}
+			add_power_balance_value = {
+				id = TMP_tempest_balance
+				value = 0.2
+			}
+		}
+		else = {
+			add_stability = 0.1
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }

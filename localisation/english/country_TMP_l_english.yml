@@ -121,6 +121,16 @@
  tempest.6.a:0 ""Sorry, but I've got a meeting with Glitter to get to.""
  tempest.6.b:0 ""Get a crowd, Grubber. Let's make this public.""
  
+ tempest.7.t:0 "The Chain of Command"
+ tempest.7.d:0 "Paperwork. Tempest understood the necessity of it, at least in theory. She couldn't be around giving direct orders to everycreature all the time, and having things directly in writing was much more efficient and reliable than word of mouth and messengers. The storm creatures knew Ponish much better than the Equestrians knew their system of hieroglyphic writing, so using her native language did make it a bit easier.\n\nIt didn't mean she hated it any less, however.\n\n"Tempest, we have a problem!" Grubber came storming in, which gave Tempest the perfect excuse to turn her attention away from the countless papers that were left. "It's, uh, about your friend Glitter."\n\n"What is it this time, Grubber?"\n\n"She's making it hard for me to do my job!" the hedgehog complained, pacing across the room. Rarely had she seen him this upset. "Every time I try to get something done, she goes and overrules everything I say! You gotta get her under control or something!"\n\nTempest raised her eyebrow, but any potential response was interrupted by the door slamming open. "Fizzy, we need to talk," Glitter Drops said, annoyed. "Grubber is being a real problem for all of us! Every time I try and get something going, he comes in and tries to shut it down! You need to-" The unicorn finally noticed Grubber staring at her with clear displeasure and froze. "Oh."\n\nTempest rubbed her forehead with a hoof. "You two just aren't going to get along, are you?" she asked, more exasperated than angry.\n\n"I've tried to be friendly, but all he does is come in and tell us we're doing things wrong before eating all our food!"\n\n"Hey, eating well is very important here," Grubber defended before turning to the broken-horned unicorn. "Boss, if the ponies are ever going to stay here for long, they've got to figure out how to do things the way we do!"\n\nIf Tempest was already leaning towards one argument, she didn't show it. Her eyes scanned over her former sidekick and old friend, as if searching for any hint of deceit or weakness from either. "I trust both of you," she finally said, "but it's obvious that this isn't going to end unless one of you has to listen to the other. With that being said...""
+ tempest.7.a:0 ""...Grubber, stop arguing with Glitter.""
+ tempest.7.b:0 ""...Glitter, just listen to Grubber for once.""
+ 
+ tempest.8.t:0 "Attack at Lightning Ridge"
+ tempest.8.d:0 "Cunning. The prince had to admit that Tempest Shadow was cunning, if nothing else. The Storm King might have been the sole leader of the army and the one who made their conquests reality, but a tactical planner was not one of his strengths. Shock warfare was Tempest's specialty, and nothing demonstrated that expertise more than the reports that were now presented before him.\n\nLightning Ridge has suffered a devastating attack by Tempest's forces. The entire region was now at risk of being lost to those traitors if more forces were not diverted to its defence. Normally, this would be an easy decision - any sort of loss was not something a storm creature took lightly - but circumstances meant it was not as simple as just sending in soldiers to deal with things. Her forces were already entrenched in the mountains, and would prove extremely difficult to dislodge.\n\nOn one paw, a retreat as distasteful as it sounded was the tactically correct move. Tempest and her traitors would be unable to push much farther either way without overextending themselves, and there was little importance in holding onto the ridge until the inevitable war. If anything the overconfidence from this victory could prove to be a slow and insidious killer, especially if she still believed in her old strategies of permanent offense.\n\nOn the other, a loss was still a loss no matter what tactics attempted to disguise it as. Repelling her troops would be a simple matter, given his superior numbers. But the resulting victory would no doubt come at a cost, both in bodies and in continuing to maintain the ties that gave the Storm Kingdom its nominal unity.\n\nAt this point only one thing was for certain; there could be no more delay. After a few more moments of deliberation the Storm Prince quickly gave the order..."
+ tempest.8.a:0 "...and a full retreat was sounded."
+ tempest.8.b:0 "...the ridge would be held, no matter what."
+ 
  ### TOOLTIPS ###
  TMP_pony_volunteers_tt:0 "Two divisions of §YPony Volunteers§! will form."
  TMP_tempest_bop_decisions_unlock_tt:0 "Completing this focus will unlock §Gadditional decisions§! in the §YBalance of Power§!."
@@ -128,8 +138,13 @@
  TMP_ponyside_first_tt:0 "\n§CDue to having not completed§! §YA Show Of Strength:§!"
  TMP_stormwar_unlock_tt:0 "Completing this focus will unlock a §Cdecision§! in the §YBalance of Power§! to declare §Rwar§! on the §YStorm Kingdom§!!"
  
+ TMP_fizzlepop_decisions_upgrade_tt:0 "Certain decisions in the §YBalance of Power§! will have their effects §Gimproved§!."
+ TMP_equestrian_wartime_bonus_tt:0 "Certain foci unlocked during the §YStorm War§! will be §Gimproved§! as long as §YGlitter Drops§! is an §Cadvisor§!. They will be focused on §Yimproving production§! and §Ysabotaging the enemy war effort§!."
+ TMP_storm_wartime_bonus_tt:0 "Certain foci unlocked during the §YStorm War§! will be §Gimproved§! as long as §YGrubber§! is an §Cadvisor§!. They will be focused on §Yincreasing military effectiveness§! and §Yconscription§!."
+ 
  TMP_fizzlepop_namechange_tt:0 "§CTempest Shadow§! will take on a new name."
  TMP_tempest_namechange_tt:0 "§CFizzlepop Berrytwist§! will take on a new name."
  
  TMP_storm_conscripts_tt:0 "Two divisions of §YStorm Conscripts§! will form."
+ TMP_bop_decisions_locked_tt:0 "Decisions in the §YBalance of Power§! will become §Rpermanently unavailable§!."
  
