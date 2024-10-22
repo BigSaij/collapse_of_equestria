@@ -205,3 +205,67 @@ country_event = {
 		add_stability = -0.05
 	}
 }
+
+country_event = {
+	id = tempest.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tempest.9" }
+	title = tempest.9.t
+	desc = tempest.9.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = tempest.9.a
+	}
+}
+
+country_event = {
+	id = tempest.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tempest.10" }
+	title = tempest.10.t
+	desc = tempest.10.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = tempest.10.a
+		if = {
+			limit = {
+				TMP = {
+					has_country_flag = TMP_grubber_empowered
+					#grubber idea check
+				}
+			}
+			add_ideas = TMP_army_defections_empowered
+		}
+		else = {
+			add_ideas = TMP_army_defections
+		}
+	}
+}
+
+country_event = {
+	id = tempest.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tempest.11" }
+	title = tempest.11.t
+	desc = tempest.11.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = tempest.11.a
+		if = {
+			limit = {
+				TMP = {
+					has_country_flag = TMP_grubber_empowered
+					#grubber idea check
+				}
+			}
+			custom_effect_tooltip = TMP_enemy_uprising_warning_tt
+		}
+		add_ideas = TMP_industrial_sabotage
+	}
+}

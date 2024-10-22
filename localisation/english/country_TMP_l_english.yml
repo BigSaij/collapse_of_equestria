@@ -29,6 +29,9 @@
  TMP_fizzlepop_leaning:0 "Fizzlepop Berrytwist - Leaning"
  TMP_fizzlepop_dominance:0 "Fizzlepop Berrytwist - Dominant"
  
+ ### FOCUS TREES ###
+ TMP_wartime_tree:0 "Tempest's Storm War Tree"
+ 
  ### FOCI ###
  TMP_between_two_worlds:0 "Between Two Worlds"
  TMP_between_two_worlds_desc:0 "The storm creatures know me as Tempest Shadow. The Equestrians know me as Fizzlepop Berrytwist. Am I either one of those ponies anymore? I don't know, but what I do know is that I'll need the help of both storm creatures and ponies to stop this idiot who wants the Storm King back. But time is running out, and we need to be fast."
@@ -81,6 +84,13 @@
  TMP_technological_stagnation_desc:0 ""
  TMP_technological_instability:0 "Technological Instability"
  TMP_technological_instability_desc:0 ""
+ TMP_storm_offensive:0 "The Storm Offensive"
+ TMP_storm_offensive_desc:0 ""
+ 
+ TMP_army_defections:0 "Army Defections"
+ TMP_army_defections_desc:0 ""
+ TMP_army_defections_empowered:0 "Army Defections"
+ TMP_army_defections_empowered_desc:0 ""
  
  ### DECISIONS ###
  TMP_start_storm_war:0 "Begin The Storm War"
@@ -131,6 +141,10 @@
  tempest.8.a:0 "...and a full retreat was sounded."
  tempest.8.b:0 "...the ridge would be held, no matter what."
  
+ tempest.9.t:0 "The Storm War Begins"
+ tempest.9.d:0 ""
+ tempest.9.a:0 ""
+ 
  ### TOOLTIPS ###
  TMP_pony_volunteers_tt:0 "Two divisions of §YPony Volunteers§! will form."
  TMP_tempest_bop_decisions_unlock_tt:0 "Completing this focus will unlock §Gadditional decisions§! in the §YBalance of Power§!."
@@ -139,8 +153,13 @@
  TMP_stormwar_unlock_tt:0 "Completing this focus will unlock a §Cdecision§! in the §YBalance of Power§! to declare §Rwar§! on the §YStorm Kingdom§!!"
  
  TMP_fizzlepop_decisions_upgrade_tt:0 "Certain decisions in the §YBalance of Power§! will have their effects §Gimproved§!."
- TMP_equestrian_wartime_bonus_tt:0 "Certain foci unlocked during the §YStorm War§! will be §Gimproved§! as long as §YGlitter Drops§! is an §Cadvisor§!. They will be focused on §Yimproving production§! and §Ysabotaging the enemy war effort§!."
- TMP_storm_wartime_bonus_tt:0 "Certain foci unlocked during the §YStorm War§! will be §Gimproved§! as long as §YGrubber§! is an §Cadvisor§!. They will be focused on §Yincreasing military effectiveness§! and §Yconscription§!."
+ TMP_equestrian_wartime_bonus_tt:0 "Certain foci unlocked during the §YStorm War§! will be §Gimproved§! as long as §YGlitter Drops§! is an §Cadvisor§!. They will be focused on §Yimproving production§! and §Yincreasing military effectiveness§!."
+ TMP_storm_wartime_bonus_tt:0 "Certain foci unlocked during the §YStorm War§! will be §Gimproved§! as long as §YGrubber§! is an §Cadvisor§!. They will be focused on §Yconscription§! and §Ysabotaging the enemy war effort§!."
+ 
+ TMP_offensive_timer_reset_tt:0 "§CDue to having the§! §YThe Storm Offensive§! §Cidea active:§!\nThe timer for §YThe Storm Offensive§! will be reset and extended to 150 days."
+ TMP_turncoat_soldiers_tt:0 "One division of §YTurncoat Soldiers§! will form."
+ TMP_saboteur_soldiers_tt:0 "One division of §YSaboteur Soldiers§! will form behind enemy lines."
+ TMP_enemy_uprising_warning_tt:0 "§RAn enemy division has spawned within our territory!§!"
  
  TMP_fizzlepop_namechange_tt:0 "§CTempest Shadow§! will take on a new name."
  TMP_tempest_namechange_tt:0 "§CFizzlepop Berrytwist§! will take on a new name."

@@ -58,5 +58,14 @@ ideas = {
 				political_power_gain = -0.25
 			}
 		}
+		TMP_storm_offensive = {
+			picture = generic_war_preparation
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_speed_factor = 0.1
+				army_morale_factor = 0.05
+			}
+		}
 	}
 }

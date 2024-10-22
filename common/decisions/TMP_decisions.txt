@@ -18,6 +18,14 @@ TMP_tempest_bop_category = {
 			}
 			custom_effect_tooltip = TMP_bop_decisions_locked_tt
 			set_country_flag = TMP_storm_war_begun
+			load_focus_tree = TMP_wartime_tree
+			STM = {
+				country_event = tempest.9
+			}
+			add_timed_idea = {
+				idea = TMP_storm_offensive
+				days = 50
+			}
 		}
 		cancel_trigger = {
 			has_war_with = STM

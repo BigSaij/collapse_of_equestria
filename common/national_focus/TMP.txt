@@ -14,6 +14,22 @@ focus_tree = {
 	shared_focus = TMP_between_two_worlds
 }
 
+focus_tree = {
+	id = TMP_wartime_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TMP
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 550 y = 1800 }
+	initial_show_position = { focus = TMP_unrelenting_offensive }
+	shared_focus = TMP_unrelenting_offensive
+}
+
 
 ###################
 ###STARTING TREE###
@@ -577,6 +593,335 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_eye_of_storm"
 		custom_effect_tooltip = TMP_stormwar_unlock_tt
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+
+##################
+###WARTIME TREE###
+##################
+
+shared_focus = {
+	id = TMP_unrelenting_offensive
+	icon = GFX_goal_generic_construction
+	x = 8
+	y = 0
+	cost = 5
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_unrelenting_offensive"
+		if = {
+			limit = {
+				has_idea = TMP_storm_offensive
+			}
+			custom_effect_tooltip = TMP_offensive_timer_reset_tt
+			hidden_effect = {
+				remove_ideas = TMP_storm_offensive
+				add_timed_idea = {
+					idea = TMP_storm_offensive
+					days = 150
+				}
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = TMP_storm_offensive
+				days = 100
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = TMP_encourage_enemy_defections
+	icon = GFX_goal_generic_construction
+	x = -4
+	y = 1
+	relative_position_id = TMP_unrelenting_offensive
+	cost = 5
+	prerequisite = {
+		focus = TMP_unrelenting_offensive
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_encourage_enemy_defections"
+		STM = {
+			country_event = tempest.10
+		}
+		if = {
+			limit = {
+				has_country_flag = TMP_grubber_empowered
+				#grubber idea check
+			}
+			effect_tooltip = {
+				STM = {
+					add_ideas = TMP_army_defections_empowered
+				}
+			}
+		}
+		else = {
+			effect_tooltip = {
+				STM = {
+					add_ideas = TMP_army_defections
+				}
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_extend_conscription
+	icon = GFX_goal_generic_construction
+	x = -2
+	y = 1
+	relative_position_id = TMP_unrelenting_offensive
+	cost = 5
+	prerequisite = {
+		focus = TMP_unrelenting_offensive
+	}
+	bypass = {
+		OR = {
+			has_idea = extensive_conscription
+			has_idea = service_by_requirement
+			has_idea = all_adults_serve
+			has_idea = scraping_the_barrel
+		}
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_extend_conscription"
+		add_ideas = extensive_conscription
+		if = {
+			limit = {
+				has_country_flag = TMP_grubber_empowered
+				#grubber idea check
+			}
+			add_manpower = 50
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_army_of_turncoats
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 1
+	relative_position_id = TMP_encourage_enemy_defections
+	cost = 5
+	prerequisite = {
+		focus = TMP_encourage_enemy_defections
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_army_of_turncoats"
+		effect_tooltip = {
+			STM = {
+				add_manpower = -75
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = TMP_grubber_empowered
+				#grubber idea check
+			}
+			custom_effect_tooltip = TMP_turncoat_soldiers_tt
+			hidden_effect = {
+				load_oob = "TMP_turncoat_soldiers"
+			}
+		}
+		else = {
+			add_manpower = 50
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_behind_the_lines
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_encourage_enemy_defections
+	cost = 5
+	prerequisite = {
+		focus = TMP_encourage_enemy_defections
+	}
+	prerequisite = {
+		focus = TMP_extend_conscription
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_behind_the_lines"
+		STM = {
+			country_event = tempest.11
+		}
+		effect_tooltip = {
+			STM = {
+				add_ideas = TMP_industrial_sabotage
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = TMP_grubber_empowered
+				#grubber idea check
+			}
+			custom_effect_tooltip = TMP_saboteur_soldiers_tt
+			hidden_effect = {
+				load_oob = "TMP_saboteur_soldiers"
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_soldier_civilians
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_extend_conscription
+	cost = 5
+	prerequisite = {
+		focus = TMP_extend_conscription
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_soldier_civilians"
+		if = {
+			limit = {
+				has_country_flag = TMP_grubber_empowered
+				#grubber idea check
+			}
+			add_manpower = 150
+		}
+		else = {
+			add_manpower = 75
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_equine_engineering
+	icon = GFX_goal_generic_construction
+	x = 4
+	y = 1
+	relative_position_id = TMP_unrelenting_offensive
+	cost = 5
+	prerequisite = {
+		focus = TMP_unrelenting_offensive
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_equine_engineering"
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_supply_the_front
+	icon = GFX_goal_generic_construction
+	x = 2
+	y = 1
+	relative_position_id = TMP_unrelenting_offensive
+	cost = 5
+	prerequisite = {
+		focus = TMP_unrelenting_offensive
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_supply_the_front"
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_extended_shifts
+	icon = GFX_goal_generic_construction
+	x = 1
+	y = 1
+	relative_position_id = TMP_equine_engineering
+	cost = 5
+	prerequisite = {
+		focus = TMP_equine_engineering
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_extended_shifts"
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_storm_staff_overcharge
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 1
+	relative_position_id = TMP_equine_engineering
+	cost = 5
+	prerequisite = {
+		focus = TMP_equine_engineering
+	}
+	prerequisite = {
+		focus = TMP_supply_the_front
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_storm_staff_overcharge"
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+
+shared_focus = {
+	id = TMP_second_wind
+	icon = GFX_goal_generic_construction
+	x = -1
+	y = 1
+	relative_position_id = TMP_supply_the_front
+	cost = 5
+	prerequisite = {
+		focus = TMP_supply_the_front
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TMP_second_wind"
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
