@@ -71,6 +71,7 @@
  TMP_eye_of_storm_desc:0 "Preparations are complete, and soon it will be time to launch a final assault on the Storm Kingdom and end the threat of the Storm King's return for good. Everything rests on this pivotal moment, and the ability to press our advantage is crucial to our survival. All the storm creatures wait for is my command."
  
  
+ 
  ### IDEAS ###
  TMP_illegitimate_government:0 "Illegitimate Government"
  TMP_illegitimate_government_desc:0 "The lands Tempest Shadow controls are not so much a state or even a government as much as an army occupying land. The term 'Tempest Realm' is not even official, and is more of a name the Storm Creatures have taken to calling any territory occupied by Commander Tempest's forces. This total lack of government, while devoid of any red tape or bureaucratic complexity, does raise many issues for long-term stability and local conscription."
@@ -91,6 +92,7 @@
  TMP_army_defections_desc:0 ""
  TMP_army_defections_empowered:0 "Army Defections"
  TMP_army_defections_empowered_desc:0 ""
+ TMP_industrial_sabotage:0 "Industrial Sabotage"
  
  ### DECISIONS ###
  TMP_start_storm_war:0 "Begin The Storm War"
@@ -165,5 +167,8 @@
  TMP_tempest_namechange_tt:0 "§CFizzlepop Berrytwist§! will take on a new name."
  
  TMP_storm_conscripts_tt:0 "Two divisions of §YStorm Conscripts§! will form."
+ TMP_lightning_ridge_tt:0 "The §YStorm Kingdom§! will be forced to either §Gconcede§! §YLightning Ridge§! or take §Rdebuffs§!."
  TMP_bop_decisions_locked_tt:0 "Decisions in the §YBalance of Power§! will become §Rpermanently unavailable§!."
+ 
+ TMP_not_implemented_tt:0 "The tech required for this focus is not yet implemented, and thus it will be available in a later update. Sorry!"
  

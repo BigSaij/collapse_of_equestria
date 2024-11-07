@@ -730,6 +730,9 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_army_of_turncoats"
+		STM = {
+			country_event = tempest.11
+		}
 		effect_tooltip = {
 			STM = {
 				add_manpower = -75
@@ -772,7 +775,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_behind_the_lines"
 		STM = {
-			country_event = tempest.11
+			country_event = tempest.12
 		}
 		effect_tooltip = {
 			STM = {
@@ -839,6 +842,30 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_equine_engineering"
+		if = {
+			limit = {
+				has_country_flag = TMP_glitter_empowered
+				#glitter idea check
+			}
+			348 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		else = {
+			981 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -859,6 +886,36 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_supply_the_front"
+		981 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 976
+			}
+			976 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = TMP_glitter_empowered
+				#glitter idea check
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_0
+				producer = TMP
+				amount = 20
+			}
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -879,6 +936,22 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_extended_shifts"
+		if = {
+			limit = {
+				has_country_flag = TMP_glitter_empowered
+				#glitter idea check
+			}
+			add_timed_idea = {
+				idea = TMP_extended_shifts_idea
+				days = 150
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = TMP_extended_shifts_idea
+				days = 100
+			}
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -896,12 +969,16 @@ shared_focus = {
 	prerequisite = {
 		focus = TMP_supply_the_front
 	}
+	available = {
+		always = no
+	}
 	
 	ai_will_do = {
 		factor = 80
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_storm_staff_overcharge"
+		custom_effect_tooltip = TMP_not_implemented_tt
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }
@@ -916,12 +993,33 @@ shared_focus = {
 	prerequisite = {
 		focus = TMP_supply_the_front
 	}
+	available = {
+		NOT = {
+			has_idea = TMP_storm_offensive
+		}
+	}
 	
 	ai_will_do = {
 		factor = 80
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TMP_second_wind"
+		if = {
+			limit = {
+				has_country_flag = TMP_glitter_empowered
+				#glitter idea check
+			}
+			add_timed_idea = {
+				idea = TMP_storm_offensive
+				days = 100
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = TMP_storm_offensive
+				days = 50
+			}
+		}
 	}
 	search_filters = { FOCUS_FILTER_MANPOWER }
 }

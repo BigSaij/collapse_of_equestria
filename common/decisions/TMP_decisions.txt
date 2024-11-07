@@ -245,6 +245,7 @@ TMP_tempest_bop_category = {
 			has_completed_focus = TMP_show_strength
 		}
 		complete_effect = {
+			custom_effect_tooltip = TMP_lightning_ridge_tt
 			STM = {
 				country_event = tempest.8
 			}

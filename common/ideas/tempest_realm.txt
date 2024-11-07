@@ -67,5 +67,36 @@ ideas = {
 				army_morale_factor = 0.05
 			}
 		}
+		TMP_army_defections = {
+			picture = idea_unknown
+			
+			modifier = {
+				army_morale_factor = -0.05
+				army_org_factor = -0.05
+			}
+		}
+		TMP_army_defections_empowered = {
+			picture = idea_unknown
+			
+			modifier = {
+				army_morale_factor = -0.05
+				army_org_factor = -0.1
+				army_defence_factor = -0.05
+			}
+		}
+		TMP_industrial_sabotage = {
+			picture = idea_unknown
+			
+			modifier = {
+				industrial_capacity_factory = -0.1
+			}
+		}
+		TMP_extended_shifts_idea = {
+			picture = idea_unknown
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
 	}
 }
