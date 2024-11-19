@@ -1,0 +1,15 @@
+characters = {
+	CFS_coloratura = {
+		name = CFS_coloratura
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CFS/Coloratura.tga"
+			}
+		}
+		country_leader = {
+			ideology = naturalized_harmonism
+			id = -1
+		}
+	}
+}
+	

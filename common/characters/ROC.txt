@@ -19,6 +19,30 @@ characters = {
 			}
 		}
 	}
+	ROC_limestone_pie = {
+		name = ROC_limestone_pie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Limestone_Pie.tga"
+			}
+		}
+	}
+	ROC_marble_pie = {
+		name = ROC_marble_pie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Marble_Pie.tga"
+			}
+		}
+	}
+	ROC_cloudy_quartz = {
+		name = ROC_cloudy_quartz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Cloudy_Quartz.tga"
+			}
+		}
+	}
 	ROC_gummy = { #literal alligator
 		name = ROC_gummy
 		portraits = {

@@ -1,6 +1,6 @@
-﻿capital = 652 #Rock Farm
+﻿capital = 480 #Camp Friendship
 
-oob = "ROC_1010"
+oob = "CFS_1010"
 
 set_research_slots = 3
 set_stability = 0.45
@@ -87,12 +87,7 @@ if = {
 	}
 }
 
-recruit_character = ROC_pinkie_pie
-recruit_character = ROC_maud_pie
-recruit_character = ROC_limestone_pie
-recruit_character = ROC_marble_pie
-recruit_character = ROC_cloudy_quartz
-recruit_character = ROC_gummy
+recruit_character = CFS_coloratura
 
 set_popularities = {
 	harmonism = 80
