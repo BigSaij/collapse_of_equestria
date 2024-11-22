@@ -1,0 +1,15 @@
+characters = {
+	HHL_sunny_skies = {
+		name = HHL_sunny_skies
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HHL/Sunny_Skies.tga"
+			}
+		}
+		country_leader = {
+			ideology = modernized_harmonism
+			id = -1
+		}
+	}
+}
+	

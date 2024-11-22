@@ -1,0 +1,8 @@
+﻿l_english:
+ ### COUNTRYNAME ###
+ CLK:0 "Changeling Kingdom"
+ CLK_DEF:0 "the Kingdom of the Changelings"
+ CLK_ADJ:0 "Changeling"
+ 
+ ### CHARACTERS ###
+ CLK_thorax:0 "Thorax"

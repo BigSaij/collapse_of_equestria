@@ -1,0 +1,15 @@
+characters = {
+	CLK_thorax = {
+		name = CLK_thorax
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CLK/Thorax.tga"
+			}
+		}
+		country_leader = {
+			ideology = absolutist_harmonism
+			id = -1
+		}
+	}
+}
+	

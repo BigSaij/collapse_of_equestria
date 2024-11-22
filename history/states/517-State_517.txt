@@ -9,4 +9,10 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
+	
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 8649 35 }
+	}
 }
